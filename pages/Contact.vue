@@ -1,5 +1,5 @@
 <template>
-    <img class="mx-20 mt-9 mb-12" src="../static/logo(black).svg">
+    <img class="mx-20 mt-9 mb-28" src="../assets/images/logo(black).svg">
 
     <div class="justify-content flex-col">
         <p class="text-7xl font-semibold mb-5">Contact Us</p>
@@ -9,14 +9,20 @@
     <!-- Form Section Starts -->
 
 
+    
+    <div class="grid grid-cols-12">
 
-    <div class="big-div p-2 mx-28 mb-20 flex flex-row">
+
+
+    <div class="big-div col-span-10 col-start-2 p-2 mb-20 flex flex-row">
 
         <!-- Purple div Section Starts -->
 
-        <div class="purple-div bg-purple-700 w-2/5">
+        <div class="purple-div w-2/5">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
-            <img class="mx-10 mt-36 mb-56" src="../static/socialInfo.svg">
+            <div class="mx-10 mt-36 mb-56 grid grid-rows-3 grid-cols-7">
+                
+            </div>
         </div>
 
         <!-- Purple div Section Ends -->
@@ -66,7 +72,7 @@
 
             <!-- Radio Section Starts -->
 
-            <div class="mb-12">
+            <div class="mb-12 text-sm">
 
             <label class="mr-3">
                 <input type="radio" checked="checked" name="radio">
@@ -100,7 +106,7 @@
 
             <!-- Message section ends -->
             <div class="float">
-                <div class="bg-purple-700 Purple-button text-white mt-5 px-7 p-3">Send message</div>
+                <div class="Purple-button text-white mt-5 px-7 p-3">Send message</div>
             </div>
 
         </div>
@@ -110,6 +116,7 @@
 
         
     </div>
+  </div>
 
     <!-- Form Section Ends -->
 
@@ -151,6 +158,7 @@
     }
     .purple-div{
         border-radius: 10px;
+        background-color: #6A4AE1;
     }
     .white-div{
         border-radius: 10px;
@@ -169,7 +177,8 @@
         border-bottom: 1px solid grey;
     }
     .Purple-button {
-      border: 1px solid 501CB7;
+      border: 1px solid #6A4AE1;
+      background-color: #6A4AE1;
       border-radius: 5px;
       display: flex;
       justify-content: center;

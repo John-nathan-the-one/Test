@@ -1,13 +1,13 @@
 <template>
 
     <!-- Hero Section Starts -->
-    <img src="../static/logo(black).svg" class="mb-24 mt-9 mx-20">
+    <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
 
     <div class="flex flex-col">
-        <p class="text-center border border-black xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 max-[640px]:w-8/12 mx-auto xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl max-[640px]:text-3xl max-[560px]:text-2xl font-semibold">
+        <p class="text-center xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 max-[640px]:w-8/12 mx-auto xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl max-[640px]:text-3xl max-[560px]:text-2xl font-semibold">
             We are on a mission to connect musicians with gigs in real time
         </p>
-        <p class="border border-black w-fit mx-auto xl:text-lg lg:text-lg md:text-base sm:text-sm max-[640px]:text-xs max-[560px]:text-xs text-center font-light  xl:mt-12 lg:mt-8 md:mt-7 sm:mt-6 max-[640px]:mt-6">We are a platform that connects musicians with musical gigs in a seamless<br> and
+        <p class="w-fit mx-auto xl:text-lg lg:text-lg md:text-base sm:text-sm max-[640px]:text-xs max-[560px]:text-xs text-center font-light  xl:mt-12 lg:mt-8 md:mt-7 sm:mt-6 max-[640px]:mt-6">We are a platform that connects musicians with musical gigs in a seamless<br> and
              efficient way. Our goal is to help artists find gigs that match their talents,<br> 
              and to make the booking process easier for both musicians and event<br> organizers.
         </p>
@@ -18,57 +18,35 @@
 
     <!-- Mission Section Starts -->
 
-    <div class="mt-28 mb-32 ">
-      <div class="flex flex-row pl-20 pr-16 gap-12 max-w-fit mx-auto border border-black">
-        <div class="w-7/12 mt-10">
+    <div class="mt-28 mb-32 px-24 grid grid-cols-12 gap-4">
+        <div class="col-span-7 mt-10 w-11/12">
             <p class="text-4xl font-semibold">Our Mission</p>
-            <p class="text-base opacity-75 mt-5 mb-28">At our core, we believe that music is a powerful force that has 
+            <p class="text-lg mt-5 mb-28">At our core, we believe that music is a powerful force that has 
                 the ability to bring people together. We want to foster a community of musicians and
                  music lovers by providing a platform that makes it easy for musicians to find
                   gigs and for event organizers to book talented performers.
             </p>
         </div>
 
-        <div class="w-6/12">
-            <img src="../static/Mission.svg" >
+        <div class="col-span-5">
+            <img src="../assets/images/Mission.png" class="w-full">
         </div>
-      </div>
     </div>
     <!-- Mission Section Ends -->
 
 
     <!-- Vision Section Starts -->
 
-
-    <div class="mt-28 mb-32 px-24">
-      <div class="flex flex-row gap-12 max-w-fit mx-auto border border-black">
-        <div class="w-6/12">
-            <img src="../static/Vision.svg" >
+    <div class="mt-8 mb-32 grid grid-cols-12 gap-12">
+        <div class="col-span-5 col-start-2">
+            <img src="../assets/images/Vision.png" >
         </div>
-        <div class="w-7/12 mt-10">
+        <div class="mt-10 col-span-5 col-start-7 max-w-lg">
             <p class="text-4xl font-semibold text-right">Our Vision</p>
-            <p class="text-lg opacity-75 text-right mt-5 mb-28">We are passionate about music and we believe that our
+            <p class="text-lg text-right mt-5 mb-28">We are passionate about music and we believe that our
                  app has the potential to make a positive impact on the music industry. Our vision is to 
                  connect musicians with gigs all over the world, and to provide a platform that helps 
                  musicians build their careers.
-            </p>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="justify-content flex-row px-32 mt-44 mb-32 gap-20">
-        <div>
-            <img src="../static/Vision.svg" >
-        </div>
-
-        <div>
-            <p class="text-4xl font-semibold">Our Vision</p>
-            <p class="text-lg opacity-75 mt-5 text">We are passionate about music and we believe that our
-                 app<br> has the potential to make a positive impact on the music<br> industry. Our vision is to 
-                 connect musicians with gigs all over<br> the world, and to provide a platform that helps 
-                 musicians<br> build their careers.
             </p>
         </div>
     </div>
@@ -80,42 +58,29 @@
     <!-- Features Section Starts -->
 
 
-    <div class="justify-content flex-row px-32 mt-44 mb-32 gap-20">
-        <div>
-            <p class="text-7xl font-semibold mb-4 text">Empowering a</p>
-            <p class="text-7xl font-semibold text-purple-700 mb-8 text">Million Musicians</p>
-            <p class="text text-lg font-light mb-4">We understand the challenges that musicians face in finding gigs, and<br>
+    <div class="grid grid-cols-12 mt-44 mb-32">
+        <div class="col-span-6 col-start-2">
+            <p class="text-7 font-semibold">Empowering a</p>
+            <p class="text-7 font-semibold text-purple-700 mb-7">Million Musicians</p>
+            <p class="text-base font-light mb-4">We understand the challenges that musicians face in finding gigs, and<br>
                  we want to make the process as easy and stress-free as possible.
             </p>
-            <img src="../static/Million.svg" >
+            <img src="../assets/images/Million.png" >
         </div>
 
-        <div>
+        <div class="col-span-4 col-start-8 pt-3">
             <p class="text-4xl font-semibold mb-5">Our Features</p>
-            <p class="text-lg text font-light mb-5">Here are some of the features that our app offers:</p>
+            <p class="text-lg font-light mb-5">Here are some of the features that our app offers:</p>
             <ul class="list-disc list-inside">
-                <li class="text-lg text font-light mb-5">Create a Profile: Musicians can create a profile that<br>
-                    &emsp;&ensp;showcases their talents, experience, and availability.
+                <li class="text-bas font-light mb-12">Create a Profile: Musicians can create a profile that showcases their talents, experience, and availability.
                 </li>
-                <br>
-                <li class="text-lg text font-light mb-5">Browse Gigs: Musicians can search for gigs based on<br>
-                    &emsp;&ensp;their preferences, including location, genre, and pay.
+                <li class="text-bas font-light mb-12">Browse Gigs: Musicians can search for gigs based on their preferences, including location, genre, and pay.
                 </li>
-                <br>
-                <li class="text-lg text font-light mb-5">Apply to Gigs: Musicians can apply to gigs with just a<br>
-                    &emsp;&ensp;few clicks, and receive notifications when they are<br>
-                    &emsp;&ensp;booked.
+                <li class="text-bas font-light mb-12">Apply to Gigs: Musicians can apply to gigs with just a few clicks, and receive notifications when they are booked.
                 </li>
-                <br>
-                <li class="text-lg text font-light mb-5">Listen to Music: Event organizers can browse through<br>
-                    &emsp;&ensp;musician profiles, listen to their music, and send<br>
-                    &emsp;&ensp;booking requests directly through the app.
+                <li class="text-bas font-light mb-12">Listen to Music: Event organizers can browse through musician profiles, listen to their music, and send booking requests directly through the app.
                 </li>
-                <br>
-                <li class="text-lg text font-light mb-5">Manage Bookings: Musicians can manage their<br>
-                    &emsp;&ensp;bookings, including accepting or declining offers, and<br>
-                    &emsp;&ensp;communicating with event organizers through the<br>
-                    &emsp;&ensp;app.
+                <li class="text-bas font-light">Manage Bookings: Musicians can manage their bookings, including accepting or declining offers, and communicating with event organizers through the app.
                 </li>
                 
             </ul>
@@ -128,16 +93,16 @@
     <!-- Features Section Ends -->
 
 
-    <div class="justify-content flex-row py-16 px-32 mt-44 gap-20 bg-purple-700">
+    <div class="grid grid-cols-12 py-20 mt-44 bg-purple align-middle items-center">
 
-        <div>
-            <p class="text-4xl font-semibold mt-5 text text-white">Download our app today and<br> 
-                start your journey towards <br> booking your next gig.
+        <div class="col-span-5 col-start-2">
+            <p class="text-4xl font-semibold mt-5 text-white">
+                Download our app today and start your journey towards booking your next gig.
             </p>
         </div>
 
-        <div class="bg-white white-button px-5 py-4">
-            <p class="font-medium text-4xl text-purple-700">Get Started</p>
+        <div class="col-span-3 col-start-8 h-5/6 bg-white white-button">
+            <p class="font-medium text-4xl">Get Started</p>
         </div>
 
         
@@ -146,10 +111,11 @@
 
 
 
-    <div class="justify-content flex-row py-16 px-32">
-        <div>
-            <p class="text-4xl font-semibold mt-5 text text-center">Join us on our mission to connect 
-                <a>musicians</a> with <br> <a>musical gigs</a>, and let's make beautiful music together.
+    <div class="grid grid-cols-7 py-32">
+        <div class="col-span-5 col-start-2 text-4xl font-semibold text-center">
+            <p>
+                Join us on our mission to connect <a class="purple-text">musicians</a> with <a class="orange-text">musical gigs</a>, 
+                and let's make beautiful music together.
             </p>
         </div>
     </div>
@@ -172,15 +138,29 @@
       justify-content: center;
       align-items: center;
     }
-    .text{
-        white-space: nowrap;
+    .text-7{
+        font-size: 72px;
+        letter-spacing: -0.05em;
+        line-height: 92px;
+    }
+    .text-bas{
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .bg-purple{
+      background-color: #6A4AE1;
+    }
+    .orange-text{
+        color: #D18959;
+    }
+    .purple-text{
+        color: #6A4AE1;
     }
     .white-button {
       color: #6A4AE1;
-      border-radius: 50px;
+      border-radius: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: max-content;
     }
 </style>
