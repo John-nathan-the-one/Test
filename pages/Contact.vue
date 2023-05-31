@@ -20,7 +20,17 @@
 
         <div class="purple-div w-2/5">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
-            <div class="mx-10 mt-36 mb-56 grid grid-rows-3 grid-cols-7">
+            <div class="mx-10 mt-36 mb-56 grid grid-rows-3 grid-cols-7 text-white gap-8">
+
+                <img class="col-span-1" src="../assets/images/Call.png">
+                <p class="col-span-6">+0000 0000 000</p>
+
+                <img class="col-span-1" src="../assets/images/Message.png">
+                <p class="col-span-6">Support@gigrend.com</p>
+
+                <img class="col-span-1" src="../assets/images/Location.png">
+                <p class="col-span-6">No 813 Rev. Emmanuel Adubifa Street, Omole Phase 2, Ikeja, Lagos</p>
+
                 
             </div>
         </div>
@@ -40,18 +50,18 @@
                 <div>
                     <label class="font-medium text-xs">First Name</label>
                     <br>
-                    <input class="w-full text-sm px-1 py-1" placeholder="John">
+                    <input class="w-full text-sm px-1 py-1 gray-border" placeholder="John">
                 </div>
                 <!-- Input Element Ends -->
                 <div>
                     <label class="font-medium text-xs">Last Name</label>
                     <br>
-                    <input class="w-full text-sm px-1 py-1" placeholder="Doe">
+                    <input class="w-full text-sm px-1 py-1 gray-border" placeholder="Doe">
                 </div>
                 <div>
                     <label class="font-medium text-xs">Email</label>
                     <br>
-                    <input class="w-full text-sm px-1 py-1" placeholder="">
+                    <input class="w-full text-sm px-1 py-1 gray-border" placeholder="">
                 </div>
                 <div>
                     <label class="font-medium text-xs">Phone Number</label>
@@ -65,28 +75,28 @@
 
             <!-- Grid Section Ends -->
             <div>
-                <p class="font-semibold text-sm text mb-4">Select Subject?</p>
+                <p class="font-semibold text-sm mb-4">Select Subject?</p>
             </div>
 
 
 
             <!-- Radio Section Starts -->
 
-            <div class="mb-12 text-sm">
+            <div class="mb-12 text-sm responsiveGrid row-gap-8">
 
-            <label class="mr-3">
+            <label class="">
                 <input type="radio" checked="checked" name="radio">
                 General Inquiry
             </label>
-            <label class="mr-3">
+            <label class="">
                 <input type="radio" name="radio">
                 General Inquiry
             </label>
-            <label class="mr-3">
+            <label class="">
                 <input type="radio" name="radio">
                 General Inquiry
             </label>
-            <label class="mr-3">
+            <label class="">
                 <input type="radio" name="radio">
                 General Inquiry
             </label>
@@ -105,7 +115,7 @@
                 </div>
 
             <!-- Message section ends -->
-            <div class="float">
+            <div class="float-right">
                 <div class="Purple-button text-white mt-5 px-7 p-3">Send message</div>
             </div>
 
@@ -149,12 +159,13 @@
       justify-content: center;
       align-items: center;
     }
-    .align{
-      justify-content: center;
-      align-items: center;
-    }
-    .align-content{
-      align-items: center
+    .responsiveGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        grid-gap: 5px;
+      }
+    ::placeholder{
+        opacity: 1;
     }
     .purple-div{
         border-radius: 10px;
@@ -169,6 +180,7 @@
     }
     input{
         border-bottom: 1px solid black;
+        opacity: 75%;
     }
     .text{
         white-space: nowrap;
@@ -184,8 +196,5 @@
       justify-content: center;
       align-items: center;
       width: max-content;
-    }
-    .float{
-        float: right;
     }
 </style>
