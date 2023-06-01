@@ -18,7 +18,15 @@ export default defineNuxtConfig({
 
         link: [
             {
-                href: "https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap",
+                href: "https://fonts.googleapis.com/css?family=Sora:300,400,500,600,700,800",
+                rel: "stylesheet"
+            },
+            {
+                href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800",
+                rel: "stylesheet"
+            },
+            {
+                href: "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900",
                 rel: "stylesheet"
             }
         ],

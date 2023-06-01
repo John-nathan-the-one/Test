@@ -104,7 +104,7 @@
   
   
           <div class="grid    xl:grid-cols-5 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-4 md:grid-rows-2 sm:grid-cols-2 sm:grid-rows-3 max-[640px]:grid-cols-2 max-[640px]:grid-rows-3    text-white mb-1 xl:mx-20 lg:mx-16 md:mx-12 sm:mx-6">
-            <img src="../assets/images/logo.svg">
+            <img class="w-7/12 mr-auto" src="../assets/images/logo.svg">
   
             <div class="flex flex-col">
               <p class="text-2xl font-semibold mb-5">About</p>

@@ -25,10 +25,10 @@
     <!-- Hero section end -->
 
 
-    <Promotions />
+    <Promotions2 />
 
 
-    <Card />
+    <Card2 />
 
 
     <Apps />
@@ -67,7 +67,7 @@
         </div>
 
         <div class="overflow-hidden">
-            <img class="" src="../assets/images/Empowering.png">
+            <img class="ml-auto" src="../assets/images/Empowering.png">
         </div>
 
       </div>

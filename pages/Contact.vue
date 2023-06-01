@@ -1,7 +1,7 @@
 <template>
-    <img class="mx-20 mt-9 mb-28" src="../assets/images/logo(black).svg">
+    <img class="mx-20 mt-9 mb-40" src="../assets/images/logo(black).svg">
 
-    <div class="justify-content flex-col">
+    <div class="flex items-center justify-center flex-col">
         <p class="text-7xl font-semibold mb-5">Contact Us</p>
         <p class="text-lg font-medium mb-16">Any question or remarks? Just write us a message!</p>
     </div>
@@ -63,10 +63,10 @@
                     <br>
                     <input class="w-full text-sm px-1 py-1 gray-border" placeholder="">
                 </div>
-                <div>
+                <div id="hello">
                     <label class="font-medium text-xs">Phone Number</label>
                     <br>
-                    <input class="w-full text-sm px-1 py-1" placeholder="+0000 0000 000">
+                    <input id="hello" class="w-full text-sm px-1 py-1" placeholder="+0000 0000 000">
                 </div>
 
                 <!-- Input Section Ends -->
@@ -116,7 +116,7 @@
 
             <!-- Message section ends -->
             <div class="float-right">
-                <div class="Purple-button text-white mt-5 px-7 p-3">Send message</div>
+                <div class="Purple-button text-white mt-5 px-10 p-3">Send message</div>
             </div>
 
         </div>
@@ -154,18 +154,15 @@
 </script>
 
 <style scoped>
-    .justify-content{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
     .responsiveGrid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         grid-gap: 5px;
       }
-    ::placeholder{
+    #hello>::placeholder{
+        color: black;
         opacity: 1;
+        font-weight: 900;
     }
     .purple-div{
         border-radius: 10px;
