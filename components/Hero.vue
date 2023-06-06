@@ -2,7 +2,7 @@
   <!-- Hero section start -->
     <section class="bg-black grid grid-cols-2 pl-12 items-center">
         <div class="text-white pt-9 pr-12">
-          <img class=" mb-20" src="../assets/images/logo.svg" width="180px" height="36px">
+          <img class="mb-20 w-44" src="../assets/images/logo.svg">
 
           <h1 class="text-72 font-semibold mb-8">The fastest and affordable way to hire musicians</h1>
           <h1 class="text-lg open font-light mb-16">Looking for talented musicians for your next event or project? Look no further than Gigrend, the premier musician hailing app!</h1>
@@ -14,7 +14,7 @@
         </div>
 
         <div class="overflow-hidden mx-auto">
-          <img src="../assets/images/Content.png" class="" width="570px" alt="image"/>
+          <img src="../assets/images/Content.png" class="w-full"/>
         </div>
       </section>
 

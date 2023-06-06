@@ -1,4 +1,5 @@
 <template>
+  <div class="mx-auto max-w-1440">
     <!-- Hero section start -->
     <Hero />
     <!-- Hero section end -->
@@ -295,6 +296,7 @@
           <p class="mt-24 text-base text-white font-medium opacity-75">© Gigrend 2023 - All Rights Reserved</p>
   
   
+      </div>
       </div>
 
 

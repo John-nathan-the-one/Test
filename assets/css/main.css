@@ -7,3 +7,9 @@ body{
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
+.max-w-1440{
+    max-width: 1444px;
+}
+.min-h-168{
+    min-height: 168px;
+}

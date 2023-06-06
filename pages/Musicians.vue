@@ -1,13 +1,14 @@
 <template>
+  <div class="mx-auto max-w-1440">
     <!-- Hero section start -->
     <section class="bg-black grid grid-cols-2 pl-12 pb-12 items-center">
         <div class="text-white pt-9">
-          <img class=" mb-20" src="../assets/images/logo.svg" width="180px" height="36px">
+          <img class="w-44 mb-20" src="../assets/images/logo.svg">
 
           <h1 class="text-72 font-semibold mb-8">
             Earn  money doing what you love.
           </h1>
-          <h1 class="text-lg font-light mb-16">
+          <h1 class="text-lg open pr-12 font-light mb-16">
             Find new opportunities, get your next gig, 
             and earn big on Gigrend. You bring the skill. We'll make earning easy
           </h1>
@@ -19,7 +20,7 @@
         </div>
 
         <div class="overflow-hidden mx-auto mt-48">
-          <img src="../assets/images/Musician_hero.png" class="" width="570px" alt="image"/>
+          <img src="../assets/images/Musician_hero.png" class="w-full"/>
         </div>
       </section>
     <!-- Hero section end -->
@@ -40,7 +41,7 @@
         <div class="mt-44 mb-32 grid grid-cols-2 px-20 gap-10">
 
         <div class="">
-            <p class="text-48 font-bold">Gigrend is empowering<br class="max-[1024px]:hidden"> Musicians</p>
+            <p class="text-48 font-semibold">Gigrend is empowering<br class="max-[1024px]:hidden"> Musicians</p>
             <p class="text-20 opacity-75 mt-6 text">
               Our mission at Gigrend is to connect talented musicians with individuals and
                  businesses in need of exceptional live music performances. We strive to 
@@ -77,6 +78,7 @@
 
 
     <Footer />
+    </div>
 
 </template>
 <script>

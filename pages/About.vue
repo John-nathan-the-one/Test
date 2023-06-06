@@ -1,5 +1,6 @@
 <template>
     <!-- Hero Section Starts -->
+    <div class="mx-auto max-w-1440">
     <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
 
     <div class="flex flex-col">
@@ -59,8 +60,8 @@
 
     <div class="grid grid-cols-11 mt-44 mb-32">
         <div class="col-span-6 col-start-1 ml-24">
-            <p class="text-7 font-semibold">Empowering a</p>
-            <p class="text-7 font-semibold purple-text mb-7">Million Musicians</p>
+            <p class="text-5xl font-semibold mb-3">Empowering a</p>
+            <p class="text-5xl font-semibold purple-text mb-7">Million Musicians</p>
             <p class="text-bas open font-light mb-4">We understand the challenges that musicians face in finding gigs, and<br>
                  we want to make the process as easy and stress-free as possible.
             </p>
@@ -124,6 +125,8 @@
     <!-- Footer Section Starts -->
     <SmallFooter />
     <!-- Footer Section Ends -->
+
+    </div>
     
 
 

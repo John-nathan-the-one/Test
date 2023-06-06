@@ -1,5 +1,6 @@
 <template>
-    <img class="mx-20 mt-9 mb-40" src="../assets/images/logo(black).svg">
+  <div class="mx-auto max-w-1440">
+    <img class="mx-20 mt-9 mb-20" src="../assets/images/logo(black).svg">
 
     <div class="flex items-center justify-center flex-col">
         <p class="text-7xl font-semibold mb-5">Contact Us</p>
@@ -137,6 +138,7 @@
     <SmallFooter />
 
     <!-- Footer Section Ends -->
+    </div>
                         
                         
     
