@@ -1,28 +1,27 @@
 <template>
       <!-- Footer Section Starts -->
   
-      <div class="bg-black justify-content flex-col pt-12 pb-5">
-          <p class="text-white opacity-75">FAQ</p> <br>
+        <p class="text-white opacity-75">FAQ</p> <br>
           <p class="text-white xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl max-[640px]:text-3xl font-bold mb-5">Frequently Asked</p>
           <p class="text-white xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl max-[640px]:text-3xl font-bold">Questions</p>
           <br><br><br><br>
   
   
   
-          <div class="xl:w-7/12 lg:w-7/12 md:w-8/12 sm:w-9/12 max-[640px]:w-11/12 justify-content flex-col">
+          <div class="xl:w-7/12 lg:w-7/12 md:w-8/12 sm:w-9/12 max-[640px]:w-11/12 flex justify-center flex-col">
   
   
           <!-- accordion-tab  -->
-          <div class="group outline-none max-w-4xl" tabindex="1">
-            <div class="group flex justify-between px-4 py-3 items-center transition ease duration-500 cursor-pointer pr-10 relative">
-              <div class="group-focus:text-white transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
+          <div class="outline-none max-w-4xl" tabindex="1">
+            <div class="flex justify-between px-4 py-3 items-center transition ease duration-1000 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
                 What is the common feature of learning?
               </div>
-              <div class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-0 mr-2">
+              <div id="catterpillar1" class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-0 mr-2">
                 <img src="../assets/images/down.svg">
               </div>
             </div>
-            <div class="group-focus:max-h-screen max-h-0   xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   py-3 overflow-hidden ease duration-500">
+            <div id="expandable1" class="max-h-0   xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   py-3 overflow-hidden ease duration-1000">
               <p class="p-2 text-white font-medium opacity-75 text-justify xl:text-base lg:text-base md:text-sm sm:text-sm max-[640px]:text-sm">
                 Education gives us a knowledge of the world around us and changes 
               it into something better. It develops in us a perspective of looking at life. It helps us build
@@ -33,16 +32,16 @@
           </div>
           <!-- accordion-tab -->
           <!-- accordion-tab  -->
-          <div class="group outline-none max-w-4xl" tabindex="2">
-            <div class="group flex justify-between px-4 py-3 pt-9 items-center transition ease duration-500 cursor-pointer pr-10 relative">
-              <div class="group-focus:text-white transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
+          <div class="outline-none max-w-4xl" tabindex="2">
+            <div class="flex justify-between px-4 py-3 pt-9 items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
                 What do we mean by education?
               </div>
-              <div class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-5 mr-2">
+              <div id="catterpillar2" class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-5 mr-2">
                 <img src="../assets/images/down.svg">
               </div>
             </div>
-            <div class="group-focus:max-h-screen max-h-0  xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   px-24 py-3 overflow-hidden ease duration-500">
+            <div id="expandable2" class="max-h-0  xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   px-24 py-3 overflow-hidden ease duration-1000">
               <p class="p-2 text-white font-medium opacity-75 text-justify xl:text-base lg:text-base md:text-sm sm:text-sm max-[640px]:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
@@ -54,16 +53,16 @@
           </div>
           <!-- accordion-tab -->
           <!-- accordion-tab  -->
-          <div class="group outline-none max-w-4xl" tabindex="3">
-            <div class="group flex justify-between px-4 py-3 pt-9 items-center transition ease duration-500 cursor-pointer pr-10 relative">
-              <div class="group-focus:text-white transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
+          <div class="outline-none max-w-4xl" tabindex="3">
+            <div class="flex justify-between px-4 py-3 pt-9 items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-white xl:text-2xl lg:text-xl md:text-xl sm:text-lg max-[640px]:text-lg font-bold">
                 What are the three types of education?
               </div>
-              <div class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-5 mr-2">
+              <div id="catterpillar3" class="h-14 w-14 rounded-full items-center inline-flex justify-center transform transition ease duration-500 absolute top-0 right-0 mb-auto ml-auto mt-5 mr-2">
                 <img src="../assets/images/down.svg">
               </div>
             </div>
-            <div class="group-focus:max-h-screen max-h-0  xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   px-24 py-3 overflow-hidden ease duration-500">
+            <div id="expandable3" class="max-h-0  xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   px-24 py-3 overflow-hidden ease duration-1000">
               <p class="p-2 text-white font-medium opacity-75 text-justify xl:text-base lg:text-base md:text-sm sm:text-sm max-[640px]:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
@@ -74,13 +73,12 @@
             <hr>
           </div>
           <!-- accordion-tab -->
-          
   
   
   
   
           </div>
-          <br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
   
         
   
@@ -125,7 +123,7 @@
               <p class="text-base font-medium opacity-75">Sitemap</p>
             </div>
   
-            <div class="h-full justify-content xl:col-span-1 lg:col-span-4 md:col-span-4 sm:col-span-2 max-[640px]:col-span-2">
+            <div class="h-full flex justify-center xl:col-span-1 lg:col-span-4 md:col-span-4 sm:col-span-2 max-[640px]:col-span-2">
               <img src="../assets/images/socials.svg">
             </div>
             
@@ -134,25 +132,90 @@
           </div>
   
           <p class="mt-24 text-base text-white font-medium opacity-75">© Gigrend 2023 - All Rights Reserved</p>
-  
-  
-      </div>
 
 
       <!-- 2nd Part of Footer Ends -->
-
+  
   
   
   
   </template>
-  <script setup>
+  <script scoped>
+  export default {
+  mounted: () => {
+            var spin1 = document.getElementById("catterpillar1");
+            var spin2 = document.getElementById("catterpillar2");
+            var spin3 = document.getElementById("catterpillar3");
+            var rot1 = -180;
+            var rot2 = -180;
+            var rot3 = -180;
+            var ele1 = document.getElementById("expandable1");
+            var ele2 = document.getElementById("expandable2");
+            var ele3 = document.getElementById("expandable3");
+            ele1.style.maxHeight = "0px";
+            ele2.style.maxHeight = "0px";
+            ele3.style.maxHeight = "0px";
+
+            spin1.addEventListener("click", function() {
+              spin1.style = 'transform: rotate(' + rot1 + 'deg)';
+              if(rot1 == -180) {
+                rot1 += 180;
+              }
+              else {
+                rot1 += -180;
+              };
+            }
+            );
+            spin1.addEventListener("click", function() {
+                if(ele1.style.maxHeight == "0px") {
+                ele1.style.maxHeight = "100vh";
+              }
+              else {
+                ele1.style.maxHeight = "0px";
+              };
+            });
+
+            spin2.addEventListener("click", function() {
+              spin2.style = 'transform: rotate(' + rot2 + 'deg)';
+              if(rot2 == -180) {
+                rot2 += 180;
+              }
+              else {
+                rot2 += -180;
+              };
+            }
+            );
+            spin2.addEventListener("click", function() {
+                if(ele2.style.maxHeight == "0px") {
+                ele2.style.maxHeight = "100vh";
+              }
+              else {
+                ele2.style.maxHeight = "0px";
+              };
+            });
+
+            spin3.addEventListener("click", function() {
+              spin3.style = 'transform: rotate(' + rot3 + 'deg)';
+              if(rot3 == -180) {
+                rot3 += 180;
+              }
+              else {
+                rot3 += -180;
+              };
+            }
+            );
+            spin3.addEventListener("click", function() {
+                if(ele3.style.maxHeight == "0px") {
+                ele3.style.maxHeight = "100vh";
+              }
+              else {
+                ele3.style.maxHeight = "0px";
+              };
+            })
+  }
+}
   </script>
   <style scoped>
-      .justify-content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
       .align{
         justify-content: center;
         align-items: center;

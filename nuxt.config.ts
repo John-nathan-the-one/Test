@@ -31,7 +31,9 @@ export default defineNuxtConfig({
             }
         ],
         script: [
-
+            {
+                src: "spin.js"
+            }
         ]
     }
 }

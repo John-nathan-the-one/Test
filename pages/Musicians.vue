@@ -76,8 +76,9 @@
 
 
 
-
-    <Footer />
+      <div class="bg-black justify-content flex-col pt-12 pb-5">
+        <Footer />
+      </div>
     </div>
 
 </template>
