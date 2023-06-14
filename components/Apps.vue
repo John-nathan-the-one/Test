@@ -4,7 +4,7 @@
       <div class="grid grid-cols-12 mt-28">
       <div class="grid grid-cols-2 max-[1130px]:grid-cols-1 max-[1130px]:grid-rows-2       max-[1130px]:w-8/12 max-[910px]:w-10/12 max-[700px]:w-full       mx-auto gap-8      max-[560px]:col-span-10 max-[560px]:mx-10 col-span-10    max-[560px]:col-start-1 col-start-2   app p-8">
         <div class="app-sub1  h-full relative overflow-visible">
-          <img class="w-full absolute bottom-0" src="../assets/images/guitar 1.png">
+          <img class="w-full absolute bottom-0" src="../assets/images/guitar1.png">
         </div>
 
 
