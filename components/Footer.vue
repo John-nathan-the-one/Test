@@ -41,7 +41,7 @@
                 <img src="../assets/images/down.svg">
               </div>
             </div>
-            <div id="expandable2" class="max-h-0  xl:px-24 lg:px-24 md:px-24 sm:px-16 max-[640px]:px-12   px-24 py-3 overflow-hidden ease duration-1000">
+            <div id="expandable2" class="max-h-0   sm:px-16 max-[640px]:px-9   px-24 py-3 overflow-hidden ease duration-1000">
               <p class="p-2 text-white font-medium opacity-75 text-justify xl:text-base lg:text-base md:text-sm sm:text-sm max-[640px]:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
@@ -101,29 +101,32 @@
   
   
   
-          <div class="grid    xl:grid-cols-5 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-4 md:grid-rows-2 sm:grid-cols-2 sm:grid-rows-3 max-[640px]:grid-cols-2 max-[640px]:grid-rows-3    text-white mb-1 xl:mx-20 lg:mx-16 md:mx-12 sm:mx-6">
-            <img class="w-7/12 mr-auto" src="../assets/images/logo.svg">
+          <div class="grid    xl:grid-cols-5 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-4 md:grid-rows-2 sm:grid-cols-2 sm:grid-rows-3 max-[640px]:grid-cols-2 max-[640px]:grid-rows-3 max-[580px]:grid-cols-1 max-[580px]:grid-rows-5    text-white mb-1 mx-auto px-4">
+            <div class="max-[580px]:h-20">
+              <img class="w-7/12 max-md:mx-auto mr-auto" src="../assets/images/logo.svg">
+            </div>
+            
   
-            <div class="flex flex-col">
+            <div class="flex flex-col max-[580px]:-mt-16">
               <p class="text-2xl font-semibold mb-5">About</p>
               <NuxtLink to="/"><p class="text-base font-medium opacity-75 mb-3">Home</p></NuxtLink>
               <NuxtLink to="/about"><p class="text-base font-medium opacity-75">About</p></NuxtLink>
             </div>
   
-            <div class="flex flex-col">
+            <div class="flex flex-col max-[580px]:-mt-10">
               <p class="text-2xl font-semibold mb-5">Resources</p>
               <NuxtLink to="/gigrend"><p class="text-base font-medium opacity-75 mb-3">Videos</p></NuxtLink>
               <p class="text-base font-medium opacity-75">Guides</p>
             </div>
   
-            <div class="flex flex-col">
+            <div class="flex flex-col max-[580px]:-mt-7">
               <p class="text-2xl font-semibold mb-5">Terms and policy</p>
               <p class="text-base font-medium opacity-75 mb-3">Privacy and policy</p>
               <p class="text-base font-medium opacity-75 mb-3">Help and support</p>
               <p class="text-base font-medium opacity-75">Sitemap</p>
             </div>
   
-            <div class="h-full flex justify-center xl:col-span-1 lg:col-span-4 md:col-span-4 sm:col-span-2 max-[640px]:col-span-2">
+            <div class="max-[580px]:-mt-5 h-full flex justify-center xl:col-span-1 lg:col-span-4 md:col-span-4 sm:col-span-2 max-[640px]:col-span-2 max-[580px]:col-span-1">
               <img src="../assets/images/socials.svg">
             </div>
             
@@ -140,9 +143,11 @@
   
   
   </template>
-  <script scoped>
+  <script scoped  type="application/javascript">
   export default {
   mounted: () => {
+    document.addEventListener("DOMContentLoaded", myFunction());
+    function myFunction(){window.alert("nawao");};
             var spin1 = document.getElementById("catterpillar1");
             var spin2 = document.getElementById("catterpillar2");
             var spin3 = document.getElementById("catterpillar3");

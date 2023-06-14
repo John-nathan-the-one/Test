@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto max-w-1440">
+  <div class="mx-auto max-w-1440 min-w-0">
     <!-- Hero section start -->
-    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 pl-12 pb-12 items-center">
-        <div class="text-white pt-9">
+    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 min-xl:pl-12 pb-12 items-center">
+        <div class="text-white pt-9 max-xl:pl-12">
           <img class="w-44 mb-20" src="../assets/images/logo.svg">
 
           <h1 class="text-72 font-semibold mb-8">
@@ -19,8 +19,8 @@
           </div>
         </div>
 
-        <div class="overflow-hidden mr-8 max-xl:mx-auto min-xl:mt-48">
-          <img src="../assets/images/Musician_hero.png" class="w-full"/>
+        <div class="overflow-hidden min-xl:mr-8 max-xl:mx-auto min-xl:mt-48">
+          <img src="../assets/images/Musician_hero.png" class="w-11/12 mx-auto"/>
         </div>
       </section>
     <!-- Hero section end -->
@@ -90,6 +90,13 @@
       line-height: 92px;
       letter-spacing: -0.05em;
     }
+    @media only screen and (max-width: 800px) {
+      .text-72 {
+        font-size: 50px;
+        line-height: 62px;
+        letter-spacing: -0.05em;
+    }
+  }
     .text-48{
       font-size: 48px;
       line-height: 64px;

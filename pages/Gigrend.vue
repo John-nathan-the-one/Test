@@ -187,7 +187,7 @@
   
   
           <!-- 1st Card starts -->
-      <div class="text-center sora -mt-16 hidden min-[830px]:max-[1024px]:block">
+      <div class="text-center sora -mt-16 hidden min-[831px]:max-[1023px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -341,7 +341,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[630px]:max-[830px]:block">
+          <div class="text-center sora -mt-16 hidden min-[631px]:max-[830px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -527,7 +527,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[400px]:max-[630px]:block">
+          <div class="text-center sora -mt-16 hidden min-[501px]:max-[630px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -703,7 +703,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[0px]:max-[400px]:block">
+          <div class="text-center sora -mt-16 hidden min-[0px]:max-[500px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex flex-col place-items-center gap-4 mb-3">

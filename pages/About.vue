@@ -1,6 +1,6 @@
 <template>
     <!-- Hero Section Starts -->
-    <div class="mx-auto max-w-1440">
+    <div class="mx-auto max-w-1440 min-w-0">
     <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
 
     <div class="flex flex-col">

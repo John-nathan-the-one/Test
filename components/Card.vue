@@ -27,16 +27,6 @@
   </script>
 
 <style scoped>
-.bg-image{
-  background-image: url("../assets/images/side-view-happy-people-making-music.svg");
-  background-size: cover;
-  border-radius: 25px;
-}
-.bg-image1{
-  background-image: url("../assets/images/guitar-players.svg");
-  background-size: cover;
-  border-radius: 25px;
-}
 .bg-gray{
   background-color: #F2F2F2;
 }
