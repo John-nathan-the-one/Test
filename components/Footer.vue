@@ -146,8 +146,6 @@
   <script scoped  type="application/javascript">
   export default {
   mounted: () => {
-    document.addEventListener("DOMContentLoaded", myFunction());
-    function myFunction(){window.alert("nawao");};
             var spin1 = document.getElementById("catterpillar1");
             var spin2 = document.getElementById("catterpillar2");
             var spin3 = document.getElementById("catterpillar3");
