@@ -1,6 +1,7 @@
 <template>
   <!-- Hero section start -->
-    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 pl-7 items-center">
+  <div class="bg-black">
+    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 pl-7 items-center">
         <div class="text-white pt-9 pr-12">
           <img class="mb-20 w-44" src="../assets/images/logo.svg">
 
@@ -17,7 +18,7 @@
           <img src="../assets/images/Content.png" class="w-11/12  mb-2"/>
         </div>
       </section>
-
+  </div>
     <!-- Hero section end -->
 
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-1440 min-w-0">
     <!-- Hero section start -->
-    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 min-xl:pl-12 pb-12 items-center">
+    <div class="bg-black">
+    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 min-xl:pl-12 pb-12 items-center">
         <div class="text-white pt-9 max-xl:pl-12">
           <img class="w-44 mb-20" src="../assets/images/logo.svg">
 
@@ -23,6 +23,7 @@
           <img src="../assets/images/Musician_hero.png" class="w-11/12 mx-auto"/>
         </div>
       </section>
+    </div>
     <!-- Hero section end -->
 
 
@@ -36,9 +37,10 @@
 
 
     <!--Empowering Section Starts -->
+    <div>
 
 
-        <div class="mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
+        <div class="mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
 
         <div class="">
             <p class="text-48 font-semibold whitespace-nowrap max-[800px]:whitespace-normal">Gigrend is empowering<br class="max-[1279px]:hidden max-[940px]:block max-[800px]:hidden"> Musicians</p>
@@ -72,11 +74,12 @@
         </div>
 
       </div>
+      </div>
 
 
 
-
-      <div class="bg-black justify-content flex-col pt-12 pb-5">
+    <div class="bg-black">
+      <div class="mx-auto max-w-1440 justify-content flex-col pt-12 pb-5">
         <Footer />
       </div>
     </div>

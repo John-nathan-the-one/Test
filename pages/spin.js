@@ -1,3 +1,6 @@
+var button1 = document.getElementById("button1");
+            var button2 = document.getElementById("button2");
+            var button3 = document.getElementById("button3");
             var spin1 = document.getElementById("catterpillar1");
             var spin2 = document.getElementById("catterpillar2");
             var spin3 = document.getElementById("catterpillar3");
@@ -11,7 +14,7 @@
             ele2.style.maxHeight = "0px";
             ele3.style.maxHeight = "0px";
 
-            spin1.addEventListener("click", function() {
+            button1.addEventListener("click", function() {
               spin1.style = 'transform: rotate(' + rot1 + 'deg)';
               if(rot1 == -180) {
                 rot1 += 180;
@@ -21,7 +24,7 @@
               };
             }
             );
-            spin1.addEventListener("click", function() {
+            button1.addEventListener("click", function() {
                 if(ele1.style.maxHeight == "0px") {
                 ele1.style.maxHeight = "100vh";
               }
@@ -30,7 +33,7 @@
               };
             });
 
-            spin2.addEventListener("click", function() {
+            button2.addEventListener("click", function() {
               spin2.style = 'transform: rotate(' + rot2 + 'deg)';
               if(rot2 == -180) {
                 rot2 += 180;
@@ -40,7 +43,7 @@
               };
             }
             );
-            spin2.addEventListener("click", function() {
+            button2.addEventListener("click", function() {
                 if(ele2.style.maxHeight == "0px") {
                 ele2.style.maxHeight = "100vh";
               }
@@ -49,7 +52,7 @@
               };
             });
 
-            spin3.addEventListener("click", function() {
+            button3.addEventListener("click", function() {
               spin3.style = 'transform: rotate(' + rot3 + 'deg)';
               if(rot3 == -180) {
                 rot3 += 180;
@@ -59,7 +62,7 @@
               };
             }
             );
-            spin3.addEventListener("click", function() {
+            button3.addEventListener("click", function() {
                 if(ele3.style.maxHeight == "0px") {
                 ele3.style.maxHeight = "100vh";
               }

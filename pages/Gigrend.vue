@@ -1,5 +1,4 @@
 <template>
-  <div class="mx-auto max-w-1440">
     <!-- Hero section start -->
     <Hero />
     <!-- Hero section end -->
@@ -19,7 +18,7 @@
   
   
           <!-- 1st Card starts -->
-      <div class="text-center sora -mt-16 max-lg:hidden">
+      <div class="text-center sora -mt-16 mb-28 max-lg:hidden">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -187,7 +186,7 @@
   
   
           <!-- 1st Card starts -->
-      <div class="text-center sora -mt-16 hidden min-[831px]:max-[1023px]:block">
+      <div class="text-center sora -mt-16 mb-28 hidden min-[831px]:max-[1023px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -341,7 +340,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[631px]:max-[830px]:block">
+          <div class="text-center sora mb-28 -mt-16 hidden min-[631px]:max-[830px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -527,7 +526,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[501px]:max-[630px]:block">
+          <div class="text-center sora -mt-16 mb-28 hidden min-[501px]:max-[630px]:block">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex place-items-center gap-4 mb-3">
@@ -703,7 +702,7 @@
   
   
           <!-- 1st Card starts -->
-          <div class="text-center sora -mt-16 hidden min-[0px]:max-[500px]:block">
+          <div class="text-center sora -mt-16 hidden min-[0px]:max-[500px]:block mb-28">
         <p class="text-4xl font-semibold mb-6 ">Popular Categories</p>
   
         <div class="category-container flex flex-col place-items-center gap-4 mb-3">
@@ -841,11 +840,11 @@
   
   
       <!-- Footer Section Starts -->
-  
-      <div class="bg-black justify-content flex-col pt-72 pb-5 -mt-48">
+    <div class="bg-black">
+      <div class="mx-auto max-w-1440 justify-content flex-col pt-72 pb-5 -mt-48">
           <Footer />
       </div>
-      </div>
+    </div>
 
 
       <!-- 2nd Part of Footer Ends -->

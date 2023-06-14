@@ -128,6 +128,7 @@
         
     </div>
   </div>
+  </div>
 
     <!-- Form Section Ends -->
 
@@ -138,7 +139,6 @@
     <SmallFooter />
 
     <!-- Footer Section Ends -->
-    </div>
                         
                         
     

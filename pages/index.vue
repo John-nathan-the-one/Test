@@ -1,6 +1,6 @@
 <template>
 
-<div class="grid grid-cols-2 max-md:grid-rows-2 max-md:grid-cols-1 min-[768px]:h-screen">
+<div class="grid grid-cols-2 max-lg:grid-rows-2 max-lg:grid-cols-1 screen-110">
     <div class="purple-div grid grid-cols-10">
         <div class="col-span-3">
             <img class="mt-7 mx-9 w-44" src="../assets/images/logo.svg">
@@ -41,4 +41,9 @@
       justify-content: center;
       align-items: center;
     }
+    @media (min-width: 1024px) {
+    .screen-110 {
+        height: 115vh;
+    }
+}
 </style>

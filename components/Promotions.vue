@@ -1,8 +1,9 @@
 <template>
       <!-- Promotion section start -->
+      <div class="bg-white">
   
   
-      <div class="grid   grid-cols-11       max-lg:grid-cols-1  place-items-center items-center align-middle     text-black mt-24 mb-20 px-44 max-[700px]:px-0  gap-4">
+      <div class="mx-auto max-w-1440 grid   grid-cols-11       max-lg:grid-cols-1  place-items-center items-center align-middle     text-black mt-24 mb-20 px-44 max-[700px]:px-0  gap-4">
             
             <div class="flex flex-col col-span-4 max-lg:max-w-sm">
               <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer3.svg" alt="wow"/></div>
@@ -30,6 +31,7 @@
             </div>
   
       </div>
+    </div>
 
   
       <!-- Promotion section end -->

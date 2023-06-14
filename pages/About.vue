@@ -1,6 +1,6 @@
 <template>
     <!-- Hero Section Starts -->
-    <div class="mx-auto max-w-1440 min-w-0">
+    <div class="mx-auto max-w-1440">
     <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
 
     <div class="flex flex-col">
@@ -92,13 +92,15 @@
 
         </div>
     </div>
+    </div>
 
 
 
     <!-- Features Section Ends -->
+    <div class="bg-purple">
 
 
-    <div class="grid grid-cols-12 py-20 max-[1000px]:py-14 max-[700px]:py-5 mt-44 bg-purple items-center max-[1000px]:gap-4">
+    <div class="grid grid-cols-12 py-20 max-[1000px]:py-14 max-[700px]:py-5 mt-44 mx-auto max-w-1440 items-center max-[1000px]:gap-4">
 
         <div class="col-span-5 max-lg:col-span-6 max-[1000px]:col-span-10 max-[1000px]:col-start-2 max-lg:col-start-2 col-start-2 align-middle items-center">
             <p class="text-4xl max-[850px]:text-3xl max-[700px]:text-2xl font-semibold text-white">
@@ -112,11 +114,12 @@
 
         
     </div>
+    </div>
 
 
 
 
-    <div class="grid grid-cols-7 max-[800px]:grid-cols-12 py-32 max-[1000px]:py-20">
+    <div class="mx-auto max-w-1440 grid grid-cols-7 max-[800px]:grid-cols-12 py-32 max-[1000px]:py-20">
         <div class="col-span-5 col-start-2 max-[800px]:col-span-10 max-[800px]:col-start-2     text-4xl max-[1000px]:text-3xl max-[790px]:text-2xl font-semibold text-center">
             <p>
                 Join us on our mission to connect <a class="purple-text">musicians</a> with <a class="orange-text">musical gigs</a>, 
@@ -130,8 +133,6 @@
     <!-- Footer Section Starts -->
     <SmallFooter />
     <!-- Footer Section Ends -->
-
-    </div>
 
 
     
