@@ -15,13 +15,13 @@
 
 
 
-    <div class="big-div col-span-10 col-start-2 p-2 mb-20 flex flex-row">
+    <div class="big-div col-span-10 col-start-2 p-2 mb-20 flex flex-row max-lg:flex-col">
 
         <!-- Purple div Section Starts -->
 
-        <div class="purple-div w-2/5">
+        <div class="purple-div w-2/5 max-lg:w-full">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
-            <div class="mx-10 mt-36 mb-56 grid grid-rows-3 grid-cols-7 text-white gap-8">
+            <div class="mx-10 mt-36 mb-56 max-lg:mb-20 grid grid-rows-3 grid-cols-7 text-white gap-8">
 
                 <img class="col-span-1" src="../assets/images/Call.png">
                 <p class="col-span-6">+0000 0000 000</p>
@@ -43,8 +43,8 @@
 
 
 
-        <div class="white-div w-3/5 px-12 pt-16">
-            <div class="grid grid-cols-2 grid-rows-2 mb-12 gap-10">
+        <div class="white-div w-3/5 max-lg:w-full px-12 pt-16">
+            <div class="grid grid-cols-2 grid-rows-2 max-sm:grid-cols-1 mb-12 gap-10">
 
                 <!-- Input Section Starts -->
                 <!-- Input Element Starts -->
@@ -117,7 +117,7 @@
 
             <!-- Message section ends -->
             <div class="float-right">
-                <div class="Purple-button text-white mt-5 px-10 p-3">Send message</div>
+                <div class="Purple-button text-white mt-5 px-10">Send message</div>
             </div>
 
         </div>
@@ -191,9 +191,29 @@
       border: 1px solid #6A4AE1;
       background-color: #6A4AE1;
       border-radius: 5px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 16px;
       display: flex;
       justify-content: center;
       align-items: center;
       width: max-content;
+    }
+    @media (min-width: 0px) {
+      @media not all and (min-width: 700px) {
+        .Purple-button {
+            border: 1px solid #6A4AE1;
+            background-color: #6A4AE1;
+            border-radius: 5px;
+            padding: 12px;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: max-content;
+        }
+      }
     }
 </style>

@@ -13,3 +13,17 @@ body{
 .min-h-168{
     min-height: 168px;
 }
+@media only screen and (max-width: 650px) {
+    .min-h-168 {
+        min-height: 118px;
+    }
+  }
+
+.min-w-400{
+    min-width: 430px;
+}
+@media only screen and (max-width: 600px) {
+    .min-w-400{
+        min-width: 200px;
+    }
+  }

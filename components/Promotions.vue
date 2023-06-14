@@ -2,9 +2,9 @@
       <!-- Promotion section start -->
   
   
-      <div class="grid   grid-cols-11 text-black mt-24 mb-20 px-44  ">
+      <div class="grid   grid-cols-11       max-lg:grid-cols-1  place-items-center items-center align-middle     text-black mt-24 mb-20 px-44 max-[700px]:px-0  gap-4">
             
-            <div class="flex flex-col col-span-4">
+            <div class="flex flex-col col-span-4 max-lg:max-w-sm">
               <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer 3.svg" alt="wow"/></div>
               <p class="font-bold text-xl mb-3">100k+ Providers</p>
               <p class="font-normal poppins text-sm greytext">Browse through hundreds of profiles and portfolios, listen to demos, and choose the best.</p>
@@ -14,9 +14,9 @@
 
             <div class="col-span-4 grid   grid-cols-6">
 
-            <div class="flex flex-col col-span-4 col-start-2">
+            <div class="flex flex-col col-span-4 col-start-2 max-lg:col-span-6 max-lg:col-start-1">
               <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer 4.svg" alt="wow"/></div>
-              <p class="font-bold text-xl mb-3">Easy and secured</p>
+              <p class="font-bold text-xl mb-3 whitespace-nowrap">Easy and secured</p>
               <p class="font-normal poppins text-sm greytext">Easy secure payment systems </p>
             </div>
             </div>

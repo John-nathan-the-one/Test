@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto max-w-1440">
     <!-- Hero section start -->
-    <section class="bg-black grid grid-cols-2 pl-12 pb-12 items-center">
+    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 pl-12 pb-12 items-center">
         <div class="text-white pt-9">
           <img class="w-44 mb-20" src="../assets/images/logo.svg">
 
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="overflow-hidden mx-auto mt-48">
+        <div class="overflow-hidden mr-8 max-xl:mx-auto min-xl:mt-48">
           <img src="../assets/images/Musician_hero.png" class="w-full"/>
         </div>
       </section>
@@ -38,10 +38,10 @@
     <!--Empowering Section Starts -->
 
 
-        <div class="mt-44 mb-32 grid grid-cols-2 px-20 gap-10">
+        <div class="mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
 
         <div class="">
-            <p class="text-48 font-semibold">Gigrend is empowering<br class="max-[1024px]:hidden"> Musicians</p>
+            <p class="text-48 font-semibold whitespace-nowrap max-[800px]:whitespace-normal">Gigrend is empowering<br class="max-[1279px]:hidden max-[940px]:block max-[800px]:hidden"> Musicians</p>
             <p class="text-20 opacity-75 mt-6 text">
               Our mission at Gigrend is to connect talented musicians with individuals and
                  businesses in need of exceptional live music performances. We strive to 
@@ -51,23 +51,23 @@
 
             <div class="grid grid-cols-3 mt-8">
                 <div>
-                    <p class="purple text-3xl font-semibold mb-2">verified</p>
-                    <p class="opacity-75 text-lg">Verified Earnings</p>
+                    <p class="purple text-3xl font-semibold mb-2     max-[705px]:text-2xl">verified</p>
+                    <p class="opacity-75 text-lg             max-[705px]:text-sm">Verified Earnings</p>
                 </div>
                 <div>
-                    <p class="purple text-3xl font-semibold mb-2">Easiest</p>
-                    <p class="opacity-75 text-lg">Have easy access</p>
+                    <p class="purple text-3xl font-semibold mb-2   max-[705px]:text-2xl">Easiest</p>
+                    <p class="opacity-75 text-lg                   max-[705px]:text-sm">Have easy access</p>
                 </div>
                 <div>
-                    <p class="purple text-3xl font-semibold mb-2">Powerfull</p>
-                    <p class="opacity-75 text-lg">Effective & Efficient</p>
+                    <p class="purple text-3xl font-semibold mb-2    max-[705px]:text-2xl">Powerfull</p>
+                    <p class="opacity-75 text-lg mb-4                    max-[705px]:text-sm">Effective & Efficient</p>
                 </div>
             </div>
 
-            <div class="max-[1024px]:mx-auto max-[1024px]:max-w-fit Purple-button text-white min-[1024px]:max-[1090px]:mt-4 min-[1024px]:max-[1090px]:px-6 min-[1024px]:max-[1090px]:p-2.5  mt-5 px-7 p-3">Get started</div>
+            <div class="max-[1024px]:mx-auto Purple-button  mt-5 px-7 p-3">Get started</div>
         </div>
 
-        <div class="overflow-hidden">
+        <div class="overflow-hidden max-xl:mx-auto">
             <img class="ml-auto" src="../assets/images/Empowering.png">
         </div>
 
@@ -94,10 +94,28 @@
       font-size: 48px;
       line-height: 64px;
     }
+    @media only screen and (max-width: 800px) {
+      .text-48 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+      .text-48 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
     .text-20{
       font-size: 20px;
       line-height: 38px;
     }
+    @media only screen and (max-width: 705px) {
+      .text-20{
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
     
     .purple{
       color: #501CB7;
@@ -123,6 +141,7 @@
     .Purple-button {
       border: 1px solid #501CB7;
       background-color: #501CB7;
+      color: white;
       border-radius: 50px;
       display: flex;
       justify-content: center;

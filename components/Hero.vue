@@ -1,6 +1,6 @@
 <template>
   <!-- Hero section start -->
-    <section class="bg-black grid grid-cols-2 pl-12 items-center">
+    <section class="bg-black grid grid-cols-2 max-xl:grid-cols-1 pl-7 items-center">
         <div class="text-white pt-9 pr-12">
           <img class="mb-20 w-44" src="../assets/images/logo.svg">
 
@@ -14,7 +14,7 @@
         </div>
 
         <div class="overflow-hidden mx-auto">
-          <img src="../assets/images/Content.png" class="w-full"/>
+          <img src="../assets/images/Content.png" class="w-full  mb-2"/>
         </div>
       </section>
 
@@ -45,5 +45,21 @@
       font-size: 72px;
       line-height: 92px;
       letter-spacing: -0.05em;
+    }
+    @media only screen and (max-width: 600px) {
+      .text-72{
+      font-size: 46px;
+      line-height: 52px;
+      letter-spacing: -0.05em;
+    }
+    }
+    @media (min-width: 600px) {
+      @media not all and (min-width: 944px) {
+        .text-72{
+          font-size: 56px;
+          line-height: 66px;
+          letter-spacing: -0.05em;
+        }
+      }
     }
 </style>

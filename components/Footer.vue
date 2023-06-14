@@ -117,7 +117,7 @@
             </div>
   
             <div class="flex flex-col">
-              <p class="text-2xl font-semibold mb-5 whitespace-nowrap">Terms and policy</p>
+              <p class="text-2xl font-semibold mb-5">Terms and policy</p>
               <p class="text-base font-medium opacity-75 mb-3">Privacy and policy</p>
               <p class="text-base font-medium opacity-75 mb-3">Help and support</p>
               <p class="text-base font-medium opacity-75">Sitemap</p>

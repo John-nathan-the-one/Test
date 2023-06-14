@@ -2,7 +2,7 @@
     <!-- Promotion section start -->
 
 
-    <div class="grid   grid-cols-10 text-black mt-24 mb-20 pl-44 pr-28 gap-5">
+    <div class="grid   grid-cols-10 max-lg:grid-cols-1    place-items-center items-center align-middle    text-black mt-24 mb-20 pl-44 pr-28 max-[700px]:pr-0 max-[700px]:pl-0 gap-5">
           
           <div class="flex flex-col col-span-3">
             <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer 3.svg" alt="wow"/></div>
@@ -12,7 +12,7 @@
 
           <div class="col-span-4 grid   grid-cols-9">
 
-          <div class="flex flex-col col-span-7 col-start-2">
+          <div class="flex flex-col col-span-7 col-start-2 max-lg:max-w-xs">
             <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer 4.svg" alt="wow"/></div>
             <p class="font-bold text-xl mb-3">Work  anytime</p>
             <p class="font-medium text-sm greytext">Work with your own schedule. No minimum hours and no boss.</p>
