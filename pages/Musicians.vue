@@ -1,7 +1,7 @@
 <template>
     <!-- Hero section start -->
     <div class="bg-black">
-    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 min-xl:pl-12 pb-12 items-center">
+    <section class="ghost mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
         <div class="text-white pt-9 max-xl:pl-12">
           <img class="w-44 mb-20" src="../assets/images/logo.svg">
 
@@ -13,13 +13,13 @@
             and earn big on Gigrend. You bring the skill. We'll make earning easy
           </h1>
 
-          <div class="flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
+          <div class="animate-pulse flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
                 <div class="Orange-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/musicians"> Get started</NuxtLink></div>
                 <div class="Other-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/contact"> Learn more</NuxtLink></div>
           </div>
         </div>
 
-        <div class="overflow-hidden min-xl:mr-8 max-xl:mx-auto min-xl:mt-48">
+        <div class="overflow-hidden min-xl:mr-8 max-xl:mx-auto min-xl:mt-48 max-xl:mb-14">
           <img src="../assets/images/Musician_hero.png" class="w-11/12 mx-auto"/>
         </div>
       </section>

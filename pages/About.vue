@@ -18,8 +18,9 @@
     <!-- Hero Section ends -->
 
     <!-- Mission Section Starts -->
+    <div class="justify-center flex">
 
-    <div class="mt-28 mb-32 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 gap-4 mx-auto">
+    <div class="mt-28 mb-32 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 -ml-10">
         <div class="col-span-7 max-w-2xl mt-10 mx-auto">
             <p class="text-4xl font-semibold">Our Mission</p>
             <p class="text-bas open font-light mt-5 mb-28">At our core, we believe that music is a powerful force that has 
@@ -29,9 +30,10 @@
             </p>
         </div>
 
-        <div class="max-[1200px]:col-span-7 min-w-400 mx-auto">
+        <div class="max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
             <img src="../assets/images/Mission.png" class="w-full">
         </div>
+    </div>
     </div>
     <!-- Mission Section Ends -->
 

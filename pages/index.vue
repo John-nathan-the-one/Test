@@ -6,7 +6,7 @@
             <img class="mt-7 mx-9 w-44" src="../assets/images/logo.svg">
         </div>
         
-        <div class="col-span-8 col-start-2">
+        <div class="col-span-8 col-start-2 animate-bounce">
             <NuxtLink to="/Gigrend">
                 <img src="../assets/images/GigrendLink.svg" class="w-full">
             </NuxtLink>
@@ -15,7 +15,7 @@
 
 
     <div class="brown-div grid grid-cols-10 items-center">
-        <div class="col-span-8 col-start-2">
+        <div class="col-span-8 col-start-2 animate-bounce">
             <NuxtLink to="/Musicians">
                 <img src="../assets/images/MusiciansLink.svg" class="w-full">
             </NuxtLink>
