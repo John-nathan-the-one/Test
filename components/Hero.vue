@@ -8,7 +8,7 @@
           <h1 class="text-72 font-semibold mb-8">The fastest and affordable way to hire musicians</h1>
           <h1 class="text-lg open font-light mb-16">Looking for talented musicians for your next event or project? Look no further than Gigrend, the premier musician hailing app!</h1>
 
-          <div class="animate-pulse flex mx-auto gap-4    max-[700px]:gap-2    flex-row max-[1279px]:justify-content mb-6">
+          <div class="heart flex mx-auto gap-4    max-[700px]:gap-2    flex-row max-[1279px]:justify-content mb-6">
                 <div class="Orange-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/musicians"> Get started</NuxtLink></div>
                 <div class="Other-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/contact"> Learn more</NuxtLink></div>
           </div>

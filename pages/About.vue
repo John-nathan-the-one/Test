@@ -20,7 +20,7 @@
     <!-- Mission Section Starts -->
     <div class="justify-center flex">
 
-    <div class="mt-28 mb-32 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 -ml-10">
+    <div class="mt-28 mb-10 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 -ml-10">
         <div class="col-span-7 max-w-2xl mt-10 mx-auto">
             <p class="text-4xl font-semibold">Our Mission</p>
             <p class="text-bas open font-light mt-5 mb-28">At our core, we believe that music is a powerful force that has 
@@ -40,7 +40,7 @@
 
     <!-- Vision Section Starts -->
 
-    <div class="mt-8 mb-32 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
+    <div class="mt-8 mb-28 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
         <div class="col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
             <img src="../assets/images/Vision.png" >
         </div>
@@ -61,7 +61,7 @@
     <!-- Features Section Starts -->
 
 
-    <div class="grid grid-cols-11 max-[1130px]:grid-cols-6 mt-44 mb-32">
+    <div class="grid grid-cols-11 max-[1130px]:grid-cols-6 mt-28 mb-32">
         <div class="px-6 items-center align-middle col-span-6 col-start-1 ml-24 max-xl:ml-10 max-[1130px]:mx-auto           grid max-[1130px]:grid-cols-2  max-[970px]:grid-cols-1">
             <div>
                 <p class="text-5xl font-semibold mb-3 max-[660px]:text-4xl">Empowering a</p>

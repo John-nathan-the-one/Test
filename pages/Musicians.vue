@@ -40,7 +40,7 @@
     <div>
 
 
-        <div class="mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
+        <div class="ghost mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
 
         <div class="">
             <p class="text-48 font-semibold whitespace-nowrap max-[800px]:whitespace-normal">Gigrend is empowering<br class="max-[1279px]:hidden max-[940px]:block max-[800px]:hidden"> Musicians</p>
@@ -69,7 +69,7 @@
             <div class="max-[1024px]:mx-auto Purple-button  mt-5 px-7 p-3">Get started</div>
         </div>
 
-        <div class="overflow-hidden max-xl:mx-auto">
+        <div class="ghost overflow-hidden max-xl:mx-auto">
             <img class="ml-auto" src="../assets/images/Empowering.png">
         </div>
 
