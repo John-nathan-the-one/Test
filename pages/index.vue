@@ -3,7 +3,7 @@
 <div class="grid grid-cols-2 max-lg:grid-rows-2 max-lg:grid-cols-1 screen-110">
     <div class="purple-div grid grid-cols-10">
         <div class="col-span-3">
-            <img class="mt-7 mx-9 w-44" src="../assets/images/logo.svg">
+            <img class="shake margin w-full" src="../assets/images/logo.svg">
         </div>
         
         <div class="col-span-8 col-start-2 ghost">
@@ -45,5 +45,9 @@
     .screen-110 {
         height: 115vh;
     }
+}
+.margin{
+    margin-top: 10%;
+    margin-left: 10%;
 }
 </style>

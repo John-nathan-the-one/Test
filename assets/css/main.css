@@ -54,7 +54,7 @@ body{
   }
   
   .shake {
-    animation: shake 8s ease infinite;
+    animation: shake 10s ease infinite;
   }
   @keyframes shake {
       0%, 100% {transform: translateX(0);}

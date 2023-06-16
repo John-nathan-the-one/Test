@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-1440">
     <img class="mx-20 mt-9 mb-20" src="../assets/images/logo(black).svg">
 
-    <div class="flex items-center justify-center flex-col">
+    <div class="shake flex items-center justify-center flex-col">
         <p class="text-7xl max-sm:text-5xl font-semibold mb-5">Contact Us</p>
         <p class="text-lg max-sm:text-xs font-medium mb-16">Any question or remarks? Just write us a message!</p>
     </div>
@@ -19,7 +19,7 @@
 
         <!-- Purple div Section Starts -->
 
-        <div class="purple-div w-2/5 max-lg:w-full">
+        <div class="ghost purple-div w-2/5 max-lg:w-full">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
             <div class="mx-10 mt-36 mb-56 max-lg:mb-20 grid grid-rows-3 grid-cols-7 text-white gap-8">
 
@@ -43,7 +43,7 @@
 
 
 
-        <div class="white-div w-3/5 max-lg:w-full px-12 pt-16">
+        <div class="ghost2 white-div w-3/5 max-lg:w-full px-12 pt-16">
             <div class="grid grid-cols-2 grid-rows-2 max-sm:grid-cols-1 mb-12 gap-10">
 
                 <!-- Input Section Starts -->

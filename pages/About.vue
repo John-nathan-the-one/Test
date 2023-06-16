@@ -30,7 +30,7 @@
             </p>
         </div>
 
-        <div class="max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
+        <div class="heart max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
             <img src="../assets/images/Mission.png" class="w-full">
         </div>
     </div>
@@ -41,7 +41,7 @@
     <!-- Vision Section Starts -->
 
     <div class="mt-8 mb-28 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
-        <div class="col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
+        <div class="heart col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
             <img src="../assets/images/Vision.png" >
         </div>
         <div class="mt-10 col-span-5 col-start-7 max-[1200px]:col-start-1 max-w-lg mx-auto max-[1200px]:max-w-2xl">
@@ -71,7 +71,7 @@
                 </p>
             </div>
             
-            <img src="../assets/images/Million.png" >
+            <img src="../assets/images/Million.png" class="heart">
         </div>
 
         <div class="col-span-4 max-[1130px]:col-span-6 pt-5 pl-10 mx-auto">
