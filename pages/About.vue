@@ -1,7 +1,9 @@
 <template>
     <!-- Hero Section Starts -->
     <div class="mx-auto max-w-1440">
-    <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
+    <NuxtLink to="/">
+        <img src="../assets/images/logo(black).svg" class="mb-24 mt-9 mx-20">
+    </NuxtLink>
 
     <div class="flex flex-col">
         <p class="text-center w-8/12 max-md:w-10/12 max-sm:w-11/12 mx-auto text-7 font-semibold">

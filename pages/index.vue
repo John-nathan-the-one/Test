@@ -6,7 +6,7 @@
             <img class="shake margin w-full" src="../assets/images/logo.svg">
         </div>
         
-        <div class="col-span-8 col-start-2 ghost">
+        <div data-hover="Click this image to go to the Gigrend Page" class="hovertext h-fit col-span-8 col-start-2 ghost">
             <NuxtLink to="/Gigrend">
                 <img src="../assets/images/GigrendLink.svg" class="w-full">
             </NuxtLink>
@@ -15,7 +15,7 @@
 
 
     <div class="brown-div grid grid-cols-10 items-center">
-        <div class="col-span-8 col-start-2 ghost">
+        <div data-hover="Click this image to go to the Musicians Page" class="hovertext col-span-8 col-start-2 ghost">
             <NuxtLink to="/Musicians">
                 <img src="../assets/images/MusiciansLink.svg" class="w-full">
             </NuxtLink>

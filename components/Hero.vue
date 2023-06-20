@@ -3,7 +3,9 @@
   <div class="bg-black">
     <section class="ghost mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
         <div class="text-white pt-9 pr-12 ghost">
-          <img class="mb-20 w-44" src="../assets/images/logo.svg">
+          <NuxtLink to="/">
+            <img class="mb-20 w-44" src="../assets/images/logo.svg">
+          </NuxtLink>
 
           <h1 class="text-72 font-semibold mb-8">The fastest and affordable way to hire musicians</h1>
           <h1 class="text-lg open font-light mb-16">Looking for talented musicians for your next event or project? Look no further than Gigrend, the premier musician hailing app!</h1>

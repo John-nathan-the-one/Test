@@ -3,7 +3,9 @@
     <div class="bg-black">
     <section class="ghost mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
         <div class="text-white pt-9 max-xl:pl-12">
-          <img class="w-44 mb-20" src="../assets/images/logo.svg">
+          <NuxtLink to="/">
+              <img class="w-44 mb-20" src="../assets/images/logo.svg">
+          </NuxtLink>
 
           <h1 class="text-72 font-semibold mb-8">
             Earn  money doing what you love.
@@ -13,7 +15,7 @@
             and earn big on Gigrend. You bring the skill. We'll make earning easy
           </h1>
 
-          <div class="animate-pulse flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
+          <div class="heart flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
                 <div class="Orange-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/musicians"> Get started</NuxtLink></div>
                 <div class="Other-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/contact"> Learn more</NuxtLink></div>
           </div>
@@ -40,9 +42,9 @@
     <div>
 
 
-        <div class="ghost mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
+        <div class="ghost  mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-xl:grid-rows-6 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
 
-        <div class="">
+        <div class="row-span-3">
             <p class="text-48 font-semibold whitespace-nowrap max-[800px]:whitespace-normal">Gigrend is empowering<br class="max-[1279px]:hidden max-[940px]:block max-[800px]:hidden"> Musicians</p>
             <p class="text-20 opacity-75 mt-6 text">
               Our mission at Gigrend is to connect talented musicians with individuals and
@@ -69,8 +71,19 @@
             <div class="max-[1024px]:mx-auto Purple-button  mt-5 px-7 p-3">Get started</div>
         </div>
 
-        <div class="ghost overflow-hidden max-xl:mx-auto">
-            <img class="ml-auto" src="../assets/images/Empowering.png">
+        <div class="ghost tainer overflow-visible      row-span-4 max-xl:mx-auto">
+          <div class="img">
+            <img class="ml-auto w-full duration-1000" src="../assets/images/Empowering.png">
+          </div>
+          <div class="img">
+            <img class="ml-auto w-full duration-700" src="../assets/images/Empowering.png">
+          </div>
+          <div class="img">
+            <img class="ml-auto w-full duration-500" src="../assets/images/Empowering.png">
+          </div>
+          <div class="img">
+            <img class="ml-auto w-full duration-300" src="../assets/images/Empowering.png">
+          </div>
         </div>
 
       </div>
@@ -88,6 +101,33 @@
 <script>
 </script>
 <style scoped>
+.tainer {
+  position: relative;
+  width: 90%;
+  background: rgba(0, 0, 0, 0);
+}
+.img {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  perspective: 1000px;
+}
+.tainer:hover>:nth-child(4)>img {
+  transform: translate(-120px, -80px) rotateY(-40deg)  scale(1);
+  opacity: 1;
+}
+.tainer:hover>:nth-child(3)>img {
+  transform: translate(-80px, -80px) rotateY(-40deg)  scale(1);
+  opacity: 0.8;
+}
+.tainer:hover>:nth-child(2)>img {
+  transform: translate(-40px, -80px) rotateY(-40deg)  scale(1);
+  opacity: 0.6;
+}
+.tainer:hover>:nth-child(1)>img {
+  transform: translate(0px, -80px) rotateY(-40deg)  scale(1);
+  opacity: 0.4;
+}
     .text-72{
       font-size: 72px;
       line-height: 92px;

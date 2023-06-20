@@ -1,8 +1,10 @@
 <template>
   <div class="mx-auto max-w-1440">
-    <img class="mx-20 mt-9 mb-20" src="../assets/images/logo(black).svg">
+    <NuxtLink to="/">
+        <img class="mx-20 mt-9 mb-20" src="../assets/images/logo(black).svg">
+    </NuxtLink>
 
-    <div class="shake flex items-center justify-center flex-col">
+    <div class="shake mx-auto w-fit flex items-center justify-center flex-col">
         <p class="text-7xl max-sm:text-5xl font-semibold mb-5">Contact Us</p>
         <p class="text-lg max-sm:text-xs font-medium mb-16">Any question or remarks? Just write us a message!</p>
     </div>
