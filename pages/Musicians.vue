@@ -72,16 +72,16 @@
         </div>
 
         <div class="ghost tainer overflow-visible      row-span-4 max-xl:mx-auto">
-          <div class="img">
+          <div class="img heart">
             <img class="ml-auto w-full duration-1000" src="../assets/images/Empowering.png">
           </div>
-          <div class="img">
+          <div class="img heart">
             <img class="ml-auto w-full duration-700" src="../assets/images/Empowering.png">
           </div>
-          <div class="img">
+          <div class="img heart">
             <img class="ml-auto w-full duration-500" src="../assets/images/Empowering.png">
           </div>
-          <div class="img">
+          <div class="img heart">
             <img class="ml-auto w-full duration-300" src="../assets/images/Empowering.png">
           </div>
         </div>

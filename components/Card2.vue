@@ -40,7 +40,6 @@
           mask: var(--m);
   filter: grayscale();
   transition: 0.8s linear;
-  animation: alter 10s ease infinite;
   cursor: pointer;
 }
 .img:hover {
@@ -48,11 +47,6 @@
   filter: grayscale(0);
   --_g: 0% /50.01% 50% no-repeat linear-gradient(#000 0 0);
 }
-@keyframes alter {
-      0%, 100% {transform: translateX(0);--_g: 10% /10% 10% no-repeat linear-gradient(#000 0 0);}
-      10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);--_g: 0% +/5% +5% no-repeat linear-gradient(#000 0 0);}
-      20%, 40%, 60%, 80% {transform: translateX(10px);--_g: 0% -/5% -5% no-repeat linear-gradient(#000 0 0);}
-  }
 
 
 .bg-image{

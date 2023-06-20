@@ -3,7 +3,7 @@
 
       <div class="mx-auto max-w-1440 grid grid-cols-12">
       <div class="grid grid-cols-2 max-[1130px]:grid-cols-1 max-[1130px]:grid-rows-2       max-[1130px]:w-8/12 max-[910px]:w-10/12 max-[700px]:w-full       mx-auto gap-8      max-[560px]:col-span-10 max-[560px]:mx-10 col-span-10 w-full    max-[560px]:col-start-1 col-start-2   app p-8">
-        <div class="app-sub1  h-full relative overflow-visible">
+        <div class="app-sub1 heartbeat  h-full relative overflow-visible">
           <img class="w-full absolute bottom-0" src="../assets/images/guitar1.png">
         </div>
 
@@ -37,6 +37,20 @@
   <script setup>
   </script>
   <style scoped>
+      .heartbeat:hover {
+        transform: rotateY(0deg) scale(1.05);
+        z-index: 1;
+        box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+        animation: none;
+      }
+      .heartbeat {
+        font-size: 150px;
+        animation: beat 1s infinite alternate;
+        transform-origin: center;
+      }
+      @keyframes beat{
+        to { transform: scale(0.97); }
+      }
       .justify-content{
         display: flex;
         justify-content: center;

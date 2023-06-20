@@ -32,8 +32,8 @@
             </p>
         </div>
 
-        <div class="heart max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
-            <img src="../assets/images/Mission.png" class="w-full">
+        <div class="perspective1 max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
+            <img src="../assets/images/Mission.png" class="w-full img heartbeat2">
         </div>
     </div>
     </div>
@@ -43,8 +43,8 @@
     <!-- Vision Section Starts -->
 
     <div class="mt-8 mb-28 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
-        <div class="heart col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
-            <img src="../assets/images/Vision.png" >
+        <div class="perspective1 col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
+            <img src="../assets/images/Vision.png" class="img heartbeat1">
         </div>
         <div class="mt-10 col-span-5 col-start-7 max-[1200px]:col-start-1 max-w-lg mx-auto max-[1200px]:max-w-2xl">
             <p class="text-4xl font-semibold text-right">Our Vision</p>
@@ -72,8 +72,12 @@
                  we want to make the process as easy and stress-free as possible.
                 </p>
             </div>
+
+            <div class="p-1 perspective">
+                <img src="../assets/images/Million.png" class="heartbeat img">
+            </div>
             
-            <img src="../assets/images/Million.png" class="heart">
+            
         </div>
 
         <div class="col-span-4 max-[1130px]:col-span-6 pt-5 pl-10 mx-auto">
@@ -150,6 +154,69 @@
 <script setup>
 </script>
 <style scoped>
+.perspective{
+    perspective: 200px;
+}
+.perspective1{
+    perspective: 1000px;
+}
+.heartbeat2 {
+	font-size: 150px;
+	animation: beat2 7s ease infinite;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat2{
+    from { transform: scale(1) rotateY(0deg); }
+	to { transform: scale(0.95) rotateY(360deg); }
+}
+.heartbeat1 {
+	font-size: 150px;
+	animation: beat1 7s infinite;
+}
+
+/* Heart beat animation */
+@keyframes beat1{
+	0% { transform: scale(0.95) rotateY(0deg); }
+    100%, to { transform: scale(0.95) rotateY(-360deg); }
+}
+.heartbeat {
+	font-size: 150px;
+	animation: beat 1s ease infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+    from { transform: scale(1) rotateX(-4deg); }
+	to { transform: scale(0.95) rotateX(6deg); }
+}
+
+
+.img {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 90%; /* width of the image */
+  --c: #7B3B3B;
+  
+  width: var(--w);
+  aspect-ratio: inherit;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/2) solid #0009;
+  outline-offset: calc(var(--w)/-2 - 2*var(--s));
+  transition: .4s;
+  cursor: pointer;
+}
+.img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(100% - 2*var(--s));
+}
 .justify-content{
       display: flex;
       justify-content: center;
