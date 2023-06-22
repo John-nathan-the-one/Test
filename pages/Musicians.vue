@@ -71,17 +71,17 @@
             <div class="max-[1024px]:mx-auto Purple-button  mt-5 px-7 p-3">Get started</div>
         </div>
 
-        <div class="ghost tainer overflow-visible      row-span-4 max-xl:mx-auto">
-          <div class="img heart">
+        <div class="ghost tainer overflow-visible      border border-black row-span-4 max-xl:mx-auto">
+          <div class="img heart max-xl:mx-auto">
             <img class="ml-auto w-full duration-1000" src="../assets/images/Empowering.png">
           </div>
-          <div class="img heart">
+          <div class="img heart max-xl:mx-auto">
             <img class="ml-auto w-full duration-700" src="../assets/images/Empowering.png">
           </div>
-          <div class="img heart">
+          <div class="img heart max-xl:mx-auto">
             <img class="ml-auto w-full duration-500" src="../assets/images/Empowering.png">
           </div>
-          <div class="img heart">
+          <div class="img heart max-xl:mx-auto">
             <img class="ml-auto w-full duration-300" src="../assets/images/Empowering.png">
           </div>
         </div>
@@ -108,8 +108,13 @@
 }
 .img {
   position: absolute;
+  top: 0px;
   bottom: 0px;
-  width: 100%;
+  max-width: 530px;
+  min-width: 350px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
   perspective: 1000px;
 }
 .tainer:hover>:nth-child(4)>img {

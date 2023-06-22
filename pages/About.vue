@@ -22,7 +22,7 @@
     <!-- Mission Section Starts -->
     <div class="justify-center flex">
 
-    <div class="mt-28 mb-10 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 -ml-10">
+    <div class="mt-28 mb-10 max-w-5xl grid grid-cols-12 max-[1200px]:grid-cols-7 -ml-10 max-[1200px]:-ml-0">
         <div class="col-span-7 max-w-2xl mt-10 mx-auto">
             <p class="text-4xl font-semibold">Our Mission</p>
             <p class="text-bas open font-light mt-5 mb-28">At our core, we believe that music is a powerful force that has 
@@ -33,7 +33,7 @@
         </div>
 
         <div class="perspective1 max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto">
-            <img src="../assets/images/Mission.png" class="w-full img heartbeat2">
+            <img src="../assets/images/Mission.png" class="w-full heart img max-[1200px]:mx-auto">
         </div>
     </div>
     </div>
@@ -44,7 +44,7 @@
 
     <div class="mt-8 mb-28 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
         <div class="perspective1 col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
-            <img src="../assets/images/Vision.png" class="img heartbeat1">
+            <img src="../assets/images/Vision.png" class="img max-[1200px]:mx-auto heart">
         </div>
         <div class="mt-10 col-span-5 col-start-7 max-[1200px]:col-start-1 max-w-lg mx-auto max-[1200px]:max-w-2xl">
             <p class="text-4xl font-semibold text-right">Our Vision</p>
@@ -73,8 +73,8 @@
                 </p>
             </div>
 
-            <div class="p-1 perspective">
-                <img src="../assets/images/Million.png" class="heartbeat img">
+            <div class="p-1">
+                <img src="../assets/images/Million.png" class="heart img">
             </div>
             
             
@@ -154,44 +154,6 @@
 <script setup>
 </script>
 <style scoped>
-.perspective{
-    perspective: 200px;
-}
-.perspective1{
-    perspective: 1000px;
-}
-.heartbeat2 {
-	font-size: 150px;
-	animation: beat2 7s ease infinite;
-	transform-origin: center;
-}
-
-/* Heart beat animation */
-@keyframes beat2{
-    from { transform: scale(1) rotateY(0deg); }
-	to { transform: scale(0.95) rotateY(360deg); }
-}
-.heartbeat1 {
-	font-size: 150px;
-	animation: beat1 7s infinite;
-}
-
-/* Heart beat animation */
-@keyframes beat1{
-	0% { transform: scale(0.95) rotateY(0deg); }
-    100%, to { transform: scale(0.95) rotateY(-360deg); }
-}
-.heartbeat {
-	font-size: 150px;
-	animation: beat 1s ease infinite alternate;
-	transform-origin: center;
-}
-
-/* Heart beat animation */
-@keyframes beat{
-    from { transform: scale(1) rotateX(-4deg); }
-	to { transform: scale(0.95) rotateX(6deg); }
-}
 
 
 .img {
