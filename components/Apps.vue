@@ -16,9 +16,9 @@
         <div class="">
           <div class="flex flex-row w-fit  gap-3">
 
-            <img class="xl:w-32 lg:w-28 max-[640px]:w-24 heart" src="../assets/images/app-store-google.svg">
+            <img class="xl:w-32 lg:w-28 max-[640px]:w-24 expand" src="../assets/images/app-store-google.svg">
           
-            <img class="xl:w-32 lg:w-28 max-[640px]:w-24 heart" src="../assets/images/app-store-apple.svg">
+            <img class="xl:w-32 lg:w-28 max-[640px]:w-24 expand" src="../assets/images/app-store-apple.svg">
           </div>
         </div>
 
@@ -50,6 +50,13 @@
       }
       @keyframes beat{
         to { transform: scale(0.97); }
+      }
+
+      .expand:hover {
+        animation: change 1s infinite alternate;
+      }
+      @keyframes change{
+        to { transform: scale(1.06); }
       }
       .justify-content{
         display: flex;

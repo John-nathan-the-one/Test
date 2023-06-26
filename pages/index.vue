@@ -1,9 +1,9 @@
 <template>
-
-<div class="grid grid-cols-2 max-lg:grid-rows-2 max-lg:grid-cols-1 screen-110">
-    <div class="purple-div grid grid-cols-10">
+<div class="screen-110">
+<div class="mx-auto screen2-110 max-w-1440 max-h-759  grid grid-cols-2 max-lg:grid-rows-2 max-lg:grid-cols-1">
+    <div class="purple-div grid grid-cols-10 max-lg:row-span-1">
         <div class="col-span-3">
-            <img class="shake margin w-full" src="../assets/images/logo.svg">
+            <img class="margin w-full" src="../assets/images/logo.svg">
         </div>
         
         <div data-hover="Click this image to go to the Gigrend Page" class="hovertext h-fit col-span-8 col-start-2 ghost">
@@ -21,6 +21,7 @@
             </NuxtLink>
         </div>
     </div>
+</div>
 </div>
 
 </template>
@@ -41,13 +42,20 @@
       justify-content: center;
       align-items: center;
     }
+.margin{
+    margin-top: 10%;
+    margin-left: 10%;
+}
     @media (min-width: 1024px) {
     .screen-110 {
         height: 115vh;
     }
 }
-.margin{
-    margin-top: 10%;
-    margin-left: 10%;
-}
+@media (min-width: 1024px) {
+    
+    .max-h-759{
+        max-height: 759px;
+        height: 115%;
+    }
+    }
 </style>

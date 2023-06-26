@@ -1,7 +1,7 @@
 <template>
     <!-- Hero section start -->
     <div class="bg-black">
-    <section class="ghost mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
+    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
         <div class="text-white pt-9 max-xl:pl-12">
           <NuxtLink to="/">
               <img class="w-44 mb-20" src="../assets/images/logo.svg">
@@ -15,13 +15,13 @@
             and earn big on Gigrend. You bring the skill. We'll make earning easy
           </h1>
 
-          <div class="heart flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
-                <div class="Orange-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/musicians"> Get started</NuxtLink></div>
-                <div class="Other-button place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/contact"> Learn more</NuxtLink></div>
+          <div class="flex mx-auto gap-4 flex-row max-[1279px]:justify-content mb-6">
+                <div class="Orange-button heartbeat place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/musicians"> Get started</NuxtLink></div>
+                <div class="Other-button  heartbeat place-items-center h-14 w-48 px-7 text-base font-semibold"><NuxtLink to="/contact"> Learn more</NuxtLink></div>
           </div>
         </div>
 
-        <div class="overflow-hidden min-xl:mr-8 max-xl:mx-auto min-xl:mt-48 max-xl:mb-14">
+        <div class="overflow-hidden ghost min-xl:mr-8 max-xl:mx-auto min-xl:mt-48 max-xl:mb-14">
           <img src="../assets/images/Musician_hero.png" class="w-11/12 mx-auto"/>
         </div>
       </section>
@@ -42,7 +42,7 @@
     <div>
 
 
-        <div class="ghost  mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-xl:grid-rows-6 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
+        <div class="mx-auto max-w-1440 mt-44 mb-32 grid grid-cols-2 max-xl:grid-cols-1 max-xl:grid-rows-6 max-[650px]:px-10 px-20 min-[1150px]:max-[1279px]:px-40 gap-10">
 
         <div class="row-span-3">
             <p class="text-48 font-semibold whitespace-nowrap max-[800px]:whitespace-normal">Gigrend is empowering<br class="max-[1279px]:hidden max-[940px]:block max-[800px]:hidden"> Musicians</p>
@@ -71,7 +71,7 @@
             <div class="max-[1024px]:mx-auto Purple-button  mt-5 px-7 p-3">Get started</div>
         </div>
 
-        <div class="ghost tainer overflow-visible      border border-black row-span-4 max-xl:mx-auto">
+        <div class="tainer overflow-visible      row-span-4 max-xl:mx-auto">
           <div class="img heart max-xl:mx-auto">
             <img class="ml-auto w-full duration-1000" src="../assets/images/Empowering.png">
           </div>
@@ -174,7 +174,13 @@
     
     .purple{
       color: #501CB7;
-    }  
+    }
+    .heartbeat:hover {
+        animation: beat 1s infinite alternate;
+      }
+      @keyframes beat{
+        to { transform: scale(1.06); }
+      }
     .Orange-button {
       color: #d18959;
       border: 1px solid #d18959;

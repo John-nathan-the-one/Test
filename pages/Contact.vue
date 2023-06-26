@@ -4,7 +4,7 @@
         <img class="mx-20 mt-9 mb-20" src="../assets/images/logo(black).svg">
     </NuxtLink>
 
-    <div class="shake mx-auto w-fit flex items-center justify-center flex-col">
+    <div class="mx-auto w-fit flex items-center justify-center flex-col">
         <p class="text-7xl max-sm:text-5xl font-semibold mb-5">Contact Us</p>
         <p class="text-lg max-sm:text-xs font-medium mb-16">Any question or remarks? Just write us a message!</p>
     </div>
@@ -21,9 +21,9 @@
 
         <!-- Purple div Section Starts -->
 
-        <div class="ghost purple-div w-2/5 max-lg:w-full">
+        <div class="ghost purple-div w-2/5 max-lg:w-full relative">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
-            <div class="mx-10 mt-36 mb-56 max-lg:mb-20 grid grid-rows-3 grid-cols-7 text-white gap-8">
+            <div class="mx-10 mt-36 mb-40 grid grid-rows-3 grid-cols-7 text-white gap-8">
 
                 <img class="col-span-1" src="../assets/images/Call.png">
                 <p class="col-span-6">+0000 0000 000</p>
@@ -36,6 +36,7 @@
 
                 
             </div>
+            <div class="circle-shadow absolute bottom-0 right-0"></div>
         </div>
 
         <!-- Purple div Section Ends -->
@@ -168,6 +169,10 @@
         opacity: 1;
         font-weight: 900;
     }
+    #hello:hover>::placeholder{
+        color: rgba(0, 0, 0, 0.664);
+        font-weight: 800;
+    }
     .purple-div{
         border-radius: 10px;
         background-color: #6A4AE1;
@@ -180,14 +185,17 @@
         box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
     }
     input{
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid grey;
         opacity: 75%;
+        outline: none;
+    }
+    input:focus{
+        border-bottom: 2px solid #6A4AE1;
+        opacity: 75%;
+        outline: none;
     }
     .text{
         white-space: nowrap;
-    }
-    .gray-border{
-        border-bottom: 1px solid grey;
     }
     .Purple-button {
       border: 1px solid #6A4AE1;
@@ -217,5 +225,31 @@
             width: max-content;
         }
       }
+    }
+
+    .circle-shadow{
+        width: 170px;
+        height: 150px;
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+        transition: 3s ease;
+        animation: grow 2s infinite alternate;
+    }
+    /* @keyframes grow{
+	to { 
+        width: 140px;
+        height: 140px;
+        margin: 15px;
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    } */
+    .circle-shadow:hover{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        animation: none;
     }
 </style>
