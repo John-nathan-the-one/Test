@@ -119,7 +119,7 @@
             <div class="flex flex-col max-[580px]:-mt-10">
               <p class="text-2xl font-semibold mb-5">Resources</p>
               <NuxtLink to="/gigrend"><p class="text-base font-medium opacity-75 mb-3">Videos</p></NuxtLink>
-              <p class="text-base font-medium opacity-75">Guides</p>
+              <NuxtLink to="/musicians"><p class="text-base font-medium opacity-75">Guides</p></NuxtLink>
             </div>
   
             <div class="flex flex-col max-[580px]:-mt-7">

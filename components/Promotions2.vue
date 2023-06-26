@@ -2,7 +2,7 @@
     <!-- Promotion section start -->
 
 <div>
-    <div class="slide mx-auto max-w-1440 grid   grid-cols-10 max-lg:grid-cols-1    place-items-center items-center align-middle    text-black mt-24 mb-20 pl-44 pr-28 max-[700px]:pr-0 max-[700px]:pl-0 gap-5">
+    <div class="slide mx-auto max-w-1440 w-fit grid   grid-cols-10 max-lg:grid-cols-1        text-black mt-24 mb-20 pl-44 pr-28 max-lg:pr-0 max-lg:pl-0 gap-5">
           
           <div class="flex flex-col col-span-3">
             <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer3.svg" alt="wow"/></div>
