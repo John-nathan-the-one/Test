@@ -45,7 +45,7 @@
 .img:hover {
   --_i: 100%;
   filter: grayscale(0);
-  --_g: 0% /50.01% 50% no-repeat linear-gradient(#000 0 0);
+  --_g: 0% /51% 51% no-repeat linear-gradient(#000 0 0);
 }
 
 
@@ -55,7 +55,6 @@
 .bg-image1{
   background-image: url("../assets/images/guitar-players.svg");
   background-size: cover;
-  border-radius: 25px;
 }
 .bg-gray{
   background-color: #F2F2F2;

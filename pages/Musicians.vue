@@ -1,7 +1,7 @@
 <template>
     <!-- Hero section start -->
     <div class="bg-black">
-    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center">
+    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 px-14 items-center">
         <div class="text-white pt-9 max-xl:pl-12">
           <NuxtLink to="/">
               <img class="w-44 mb-20" src="../assets/images/logo.svg">
@@ -21,8 +21,8 @@
           </div>
         </div>
 
-        <div class="overflow-hidden ghost min-xl:mr-8 max-xl:mx-auto min-xl:mt-48 max-xl:mb-14">
-          <img src="../assets/images/Musician_hero.png" class="w-11/12 mx-auto"/>
+        <div class="overflow-hidden ghost  max-xl:mx-auto min-xl:mt-48 max-xl:mb-14">
+          <img src="../assets/images/Musician_hero.png" class="w-11/12 max-xl:mx-auto ml-auto"/>
         </div>
       </section>
     </div>

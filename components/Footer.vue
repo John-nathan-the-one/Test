@@ -104,7 +104,7 @@
           <div class="grid    xl:grid-cols-5 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-4 md:grid-rows-2 sm:grid-cols-2 sm:grid-rows-3 max-[640px]:grid-cols-2 max-[640px]:grid-rows-3 max-[580px]:grid-cols-1 max-[580px]:grid-rows-5    text-white mb-1 mx-auto px-4">
             <div class="max-[580px]:h-20">
               <NuxtLink to="/">
-                <img class="w-7/12 max-md:mx-auto mr-auto" src="../assets/images/logo.svg">
+                <img class="w-7/12 max-[580px]:mx-auto mr-1" src="../assets/images/logo.svg">
               </NuxtLink>
             </div>
             

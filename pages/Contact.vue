@@ -36,7 +36,13 @@
 
                 
             </div>
-            <div class="circle-shadow absolute bottom-0 right-0"></div>
+            <div class="circle-shadow absolute bottom-0 right-0"
+                data-aos="zoom-in-down"
+                data-aos-easing="ease"
+                data-aos-duration="1200"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-delay="100"
+                data-aos-offset="0"></div>
         </div>
 
         <!-- Purple div Section Ends -->

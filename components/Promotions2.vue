@@ -12,7 +12,7 @@
 
           <div class="col-span-4 grid   grid-cols-9">
 
-          <div class="flex flex-col col-span-7 col-start-2 max-lg:max-w-xs">
+          <div class="flex flex-col col-span-7 min-[1024px]:col-start-2 max-lg:max-w-xs">
             <div class="grid place-items-center circle bg-purple mb-6"><img src="../assets/images/Layer4.svg" alt="wow"/></div>
             <p class="font-bold text-xl mb-3">Work  anytime</p>
             <p class="font-medium text-sm greytext">Work with your own schedule. No minimum hours and no boss.</p>
