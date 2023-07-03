@@ -1,7 +1,7 @@
 <template>
   <!-- Hero section start -->
   <div class="bg-black">
-    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center relative">
+    <section class="mx-auto max-w-1440 grid grid-cols-2 max-xl:grid-cols-1 max-xl:pl-7 pl-14 items-center relative overflow-hidden">
         <div class="text-white pt-9 pr-12">
           <NuxtLink to="/">
             <img class="mb-20 w-44" src="../assets/images/logo.svg">
@@ -20,8 +20,8 @@
           <img src="../assets/images/Content.png" class="w-11/12  mb-2 ghost"/>
         </div>
 
-        <div class="circle-shadow absolute bottom-0 right-0 z-10">
-          <div class="circle-shadow1 absolute bottom-0 right-0 z-10">
+        <div class="circle-shadow absolute  z-10   max-[1280px]:hidden">
+          <div class="circle-shadow1 absolute  z-10">
           </div>
         </div>
       </section>
@@ -61,42 +61,24 @@
       letter-spacing: -0.05em;
     }
     .circle-shadow{
-        width: 510px;
-        height: 450px;
-        border-top-left-radius: 700px;
+        width: 58%;
+        height: 780px;
+        border-radius: 100%;
         border: 1px solid white;
-        border-right: 0px;
-        border-bottom: 0px;
-        background-color: rgba(248, 235, 235, 0);
+        background-color: rgba(133, 62, 62, 0);
         transition: 3s ease;
-        animation: grow 2s infinite alternate;
-    }
-    .circle-shadow:hover{
-        width: 100%;
-        height: 100%;
-        border: 0px dashed rgba(255, 255, 255, 0);
-        border-radius: 0px;
-        background-color: rgba(0, 0, 0, 0);
-        animation: none;
+        bottom: -240px;
+        right: -192px;
     }
     .circle-shadow1{
-        width: 340px;
-        height: 300px;
-        border-top-left-radius: 700px;
+        width: 80%;
+        height: 620px;
+        border-radius: 100%;
         border: 1px solid white;
-        border-right: 0px;
-        border-bottom: 0px;
-        background-color: rgba(248, 235, 235, 0);
+        background-color: rgba(133, 62, 62, 0);
         transition: 3s ease;
-        animation: grow 2s infinite alternate;
-    }
-    .circle-shadow1:hover{
-        width: 100%;
-        height: 100%;
-        border: 0px dashed rgba(255, 255, 255, 0);
-        border-radius: 0px;
-        background-color: rgba(0, 0, 0, 0);
-        animation: none;
+        bottom: 0px;
+        right: 0px;
     }
     @media only screen and (max-width: 600px) {
       .text-72{
