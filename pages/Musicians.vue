@@ -118,21 +118,37 @@
   perspective: 1000px;
 }
 .tainer:hover>:nth-child(4)>img {
-  transform: translate(-120px, -80px) rotateY(-40deg)  scale(1);
   opacity: 1;
+  animation: turn1 5s ease 1 alternate;
 }
+  @keyframes turn1 {
+    22%, 69% {transform: translate(-120px, -80px) rotateY(-40deg)  scale(1);}
+      to {transform: translate(0px, 0px) rotateY(0deg)  scale(inherit);}
+  }
 .tainer:hover>:nth-child(3)>img {
-  transform: translate(-80px, -80px) rotateY(-40deg)  scale(1);
   opacity: 0.8;
+  animation: turn2 5s ease 1 alternate;
 }
+  @keyframes turn2 {
+    26%, 74% {transform: translate(-80px, -80px) rotateY(-40deg)  scale(1);}
+      to {transform: translate(0px, 0px) rotateY(0deg)  scale(inherit);}
+  }
 .tainer:hover>:nth-child(2)>img {
-  transform: translate(-40px, -80px) rotateY(-40deg)  scale(1);
   opacity: 0.6;
+  animation: turn3 5s ease 1 alternate;
 }
+  @keyframes turn3 {
+    30%, 79% {transform: translate(-40px, -80px) rotateY(-40deg)  scale(1);}
+      to {transform: translate(0px, 0px) rotateY(0deg)  scale(inherit);}
+  }
 .tainer:hover>:nth-child(1)>img {
-  transform: translate(0px, -80px) rotateY(-40deg)  scale(1);
   opacity: 0.4;
+  animation: turn4 5s ease 1 alternate;
 }
+  @keyframes turn4 {
+    34%, 84% {transform: translate(0px, -80px) rotateY(-40deg)  scale(1);}
+      to {transform: translate(0px, 0px) rotateY(0deg)  scale(inherit);}
+  }
     .text-72{
       font-size: 72px;
       line-height: 92px;

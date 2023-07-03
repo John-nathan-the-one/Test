@@ -55,7 +55,7 @@
     
     .max-h-759{
         max-height: 759px;
-        height: 115%;
+        height: 100%;
     }
     }
 </style>

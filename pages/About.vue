@@ -32,13 +32,13 @@
             </p>
         </div>
 
-        <div data-aos="zoom-in-left" class="perspective1 max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto"
+        <div data-aos="zoom-in-left" class="perspective1 h-fit max-[1200px]:col-span-7 min-w-400 ml-14 max-[1200px]:mx-auto"
              data-aos-easing="ease"
              data-aos-anchor-placement="top-center"
              data-aos-duration="2000"
              data-aos-delay="100" 
              data-aos-offset="0">
-            <img src="../assets/images/Mission.png" class="w-full img max-[1200px]:mx-auto">
+            <img src="../assets/images/Mission.png" class="w-full max-[1200px]:mx-auto">
         </div>
     </div>
     </div>
@@ -49,7 +49,13 @@
 
     <div class="mt-8 mb-28 grid grid-cols-12 gap-12 max-[1200px]:grid-cols-5">
         <div class="perspective1 col-span-5 col-start-2 max-[1200px]:col-start-1 mx-auto">
-            <img src="../assets/images/Vision.png" class="img max-[1200px]:mx-auto heart">
+            <img src="../assets/images/Vision.png" class="max-[1200px]:mx-auto"
+                data-aos="fade-up"
+                data-aos-easing="ease"
+                data-aos-duration="2000"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay="0"
+                data-aos-offset="-200">
         </div>
         <div class="mt-10 col-span-5 col-start-7 max-[1200px]:col-start-1 max-w-lg mx-auto max-[1200px]:max-w-2xl">
             <p class="text-4xl font-semibold text-right">Our Vision</p>
@@ -79,13 +85,13 @@
             </div>
 
             <div class="p-1">
-                <img src="../assets/images/Million.png" class="img"
+                <img src="../assets/images/Million.png" class=""
                 data-aos="fade-down-right"
                 data-aos-easing="ease"
                 data-aos-duration="2000"
                 data-aos-anchor-placement="top-center"
                 data-aos-delay="100"
-                data-aos-offset="0">
+                data-aos-offset="-120">
             </div>
             
             
@@ -100,7 +106,7 @@
                 data-aos="fade-down-left"
                 data-aos-easing="ease"
                 data-aos-duration="1000"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="alt-bottom"
                 data-aos-delay="0"
                 data-aos-offset="100">Create a Profile: Musicians can create a profile that<span><br>&ensp;&emsp;</span>showcases their talents, experience, and availability.
                 </li>
@@ -109,7 +115,7 @@
                 data-aos="fade-down-left"
                 data-aos-easing="ease"
                 data-aos-duration="1200"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="alt-bottom"
                 data-aos-delay="200"
                 data-aos-offset="100">Browse Gigs: Musicians can search for gigs based on<span><br>&ensp;&emsp;</span>their preferences, including location, genre, and pay.
                 </li>
@@ -118,7 +124,7 @@
                 data-aos="fade-down-left"
                 data-aos-easing="ease"
                 data-aos-duration="1400"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="alt-bottom"
                 data-aos-delay="300"
                 data-aos-offset="100">Apply to Gigs: Musicians can apply to gigs with just a<span><br>&ensp;&emsp;</span>few clicks, and receive notifications when they are<span><br>&ensp;&emsp;</span>booked.
                 </li>
@@ -127,7 +133,7 @@
                 data-aos="fade-down-left"
                 data-aos-easing="ease"
                 data-aos-duration="1600"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="alt-bottom"
                 data-aos-delay="400"
                 data-aos-offset="100">Listen to Music: Event organizers can browse<span><br>&ensp;&emsp;</span>through musician profiles, listen to their music, and<span><br>&ensp;&emsp;</span>send booking requests directly through the app.
                 </li>
@@ -136,7 +142,7 @@
                 data-aos="fade-down-left"
                 data-aos-easing="ease"
                 data-aos-duration="1800"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="alt-bottom"
                 data-aos-delay="500"
                 data-aos-offset="100">Manage Bookings: Musicians can manage their<span><br>&ensp;&emsp;</span>bookings, including accepting or declining offers,<span><br>&ensp;&emsp;</span>and communicating with event organizers through<span><br>&ensp;&emsp;</span>the app.
                 </li>
@@ -212,30 +218,6 @@
 </script>
 <style scoped>
 
-
-.img {
-  --s: 15px;  /* size of the frame */
-  --b: 2px;   /* border thickness */
-  --w: 90%; /* width of the image */
-  --c: #7B3B3B;
-  
-  width: var(--w);
-  aspect-ratio: inherit;
-  padding: calc(2*var(--s));
-  --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-  background:
-    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
-    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-  outline: calc(var(--w)/2) solid #0009;
-  outline-offset: calc(var(--w)/-2 - 2*var(--s));
-  transition: .4s;
-  cursor: pointer;
-}
-.img:hover {
-  outline: var(--b) solid var(--c);
-  outline-offset: calc(var(--s)/-2);
-  --_i: calc(100% - 2*var(--s));
-}
 .justify-content{
       display: flex;
       justify-content: center;

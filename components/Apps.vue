@@ -54,6 +54,7 @@
 
       .expand:hover {
         animation: change 1s infinite alternate;
+        cursor: pointer;
       }
       @keyframes change{
         to { transform: scale(1.06); }

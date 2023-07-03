@@ -21,7 +21,7 @@
 
         <!-- Purple div Section Starts -->
 
-        <div class="ghost purple-div w-2/5 max-lg:w-full relative">
+        <div class="purple-div w-2/5 max-lg:w-full relative">
             <p class="m-10 text-white text-3xl font-semibold">Contact Information</p>
             <div class="mx-10 mt-36 mb-40 grid grid-rows-3 grid-cols-7 text-white gap-8">
 
@@ -36,13 +36,7 @@
 
                 
             </div>
-            <div class="circle-shadow absolute bottom-0 right-0"
-                data-aos="zoom-in-down"
-                data-aos-easing="ease"
-                data-aos-duration="1200"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-delay="100"
-                data-aos-offset="0"></div>
+            <div class="circle-shadow absolute bottom-0 right-0"></div>
         </div>
 
         <!-- Purple div Section Ends -->
@@ -52,7 +46,7 @@
 
 
 
-        <div class="ghost2 white-div w-3/5 max-lg:w-full px-12 pt-16">
+        <div class="white-div w-3/5 max-lg:w-full px-12 pt-16">
             <div class="grid grid-cols-2 grid-rows-2 max-sm:grid-cols-1 mb-12 gap-10">
 
                 <!-- Input Section Starts -->
@@ -94,20 +88,20 @@
 
             <div class="mb-12 text-sm responsiveGrid row-gap-8">
 
-            <label class="">
-                <input type="radio" checked="checked" name="radio">
+            <label class="cursor-pointer">
+                <input type="radio" checked="checked" name="radio" class="cursor-pointer">
                 General Inquiry
             </label>
-            <label class="">
-                <input type="radio" name="radio">
+            <label class="cursor-pointer">
+                <input type="radio" name="radio" class="cursor-pointer">
                 General Inquiry
             </label>
-            <label class="">
-                <input type="radio" name="radio">
+            <label class="cursor-pointer">
+                <input type="radio" name="radio" class="cursor-pointer">
                 General Inquiry
             </label>
-            <label class="">
-                <input type="radio" name="radio">
+            <label class="cursor-pointer">
+                <input type="radio" name="radio" class="cursor-pointer">
                 General Inquiry
             </label>
 
@@ -126,7 +120,7 @@
 
             <!-- Message section ends -->
             <div class="float-right">
-                <div class="Purple-button text-white mt-5 px-10">Send message</div>
+                <div class="Purple-button text-white mt-5 px-10 cursor-pointer">Send message</div>
             </div>
 
         </div>
