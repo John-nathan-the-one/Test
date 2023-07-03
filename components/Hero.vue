@@ -70,6 +70,14 @@
         bottom: -240px;
         right: -192px;
     }
+    .circle-shadow:hover{
+      border: dashed 4px white;
+      rotate: 360deg;
+    }
+    .circle-shadow1:hover{
+      border: dashed 4px white;
+      rotate: 90deg;
+    }
     .circle-shadow1{
         width: 80%;
         height: 620px;
