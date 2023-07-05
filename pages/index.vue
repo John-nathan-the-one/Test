@@ -46,9 +46,21 @@
     margin-top: 10%;
     margin-left: 10%;
 }
+.screen2-110{
+    box-shadow: 0px 0px 40px 2px black;
+}
+.screen-110 {
+    background-image: linear-gradient(to right, #6A4AE1 49.99% , #D18959 50%);
+}
+
     @media (min-width: 1024px) {
     .screen-110 {
         height: 115vh;
+    }
+}
+@media (min-width: 1400px) {
+    .screen-110 {
+        height: 100vh;
     }
 }
 @media (min-width: 1024px) {

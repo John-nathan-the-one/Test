@@ -89,9 +89,9 @@
                 data-aos="fade-down-right"
                 data-aos-easing="ease"
                 data-aos-duration="2000"
-                data-aos-anchor-placement="top-center"
+                data-aos-anchor-placement="center-bottom"
                 data-aos-delay="100"
-                data-aos-offset="-120">
+                data-aos-offset="0">
             </div>
             
             

@@ -16,14 +16,16 @@
           </div>
         </div>
 
-        <div class="overflow-visible mx-auto z-30">
-          <img src="../assets/images/Content.png" class="w-11/12  mb-2 ghost"/>
+        <div class="overflow-visible mx-auto hero-image">
+          <div class="circle-shadow absolute     max-[1280px]:hidden">
+            <div class="circle-shadow1 absolute">
+            </div>
+          </div>
+
+          <img src="../assets/images/content.png" class="w-10/12 max-[1280px]:mx-auto min-[900px]:max-[1280px]:w-8/12  mb-2 ghost"/>
         </div>
 
-        <div class="circle-shadow absolute  z-10   max-[1280px]:hidden">
-          <div class="circle-shadow1 absolute  z-10">
-          </div>
-        </div>
+        
       </section>
   </div>
     <!-- Hero section end -->
@@ -88,6 +90,16 @@
         bottom: 0px;
         right: 0px;
     }
+    .hero-image:hover>.circle-shadow{
+      border: dashed 4px white;
+      rotate: 360deg;
+      transform: scale(0.8);
+    }
+    .hero-image:hover>.circle-shadow1{
+      border: dashed 4px white;
+      rotate: 90deg;
+    }
+
     @media only screen and (max-width: 600px) {
       .text-72{
       font-size: 46px;

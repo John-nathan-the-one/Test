@@ -236,15 +236,6 @@
         transition: 3s ease;
         animation: grow 2s infinite alternate;
     }
-    /* @keyframes grow{
-	to { 
-        width: 140px;
-        height: 140px;
-        margin: 15px;
-        border-radius: 100%;
-        background-color: rgba(0, 0, 0, 0.363);
-    }
-    } */
     .circle-shadow:hover{
         width: 100%;
         height: 100%;
