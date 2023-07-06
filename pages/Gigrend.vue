@@ -23,35 +23,35 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Full Stack Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">324</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             UI/UX designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">259</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             IOS Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">231</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Web Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">222</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Copy writer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">219</p>
@@ -69,35 +69,35 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Graphic Designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">192</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Illustrator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">176</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Video Editor
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">154</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Front End Dev
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">142</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             3D Modeler
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">128</p>
@@ -113,28 +113,28 @@
            <!-- 3rd Card starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Officer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">102</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Content Creator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">95</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Translator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">72</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Java Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">51</p>
@@ -191,28 +191,28 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Full Stack Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">324</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             UI/UX designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">259</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             IOS Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">231</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Web Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">222</p>
@@ -230,28 +230,28 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Copy writer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">219</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Graphic Designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">192</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Illustrator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">176</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Video Editor
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">154</p>
@@ -267,28 +267,28 @@
            <!-- 3rd Card starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Front End Dev
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">142</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             3D Modeler
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">128</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Officer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">102</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Content Creator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">95</p>
@@ -300,14 +300,14 @@
 
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Translator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">72</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Java Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">51</p>
@@ -345,21 +345,21 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Full Stack Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">324</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             UI/UX designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">259</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             IOS Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">231</p>
@@ -377,21 +377,21 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Web Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">222</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Copy writer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">219</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Graphic Designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">192</p>
@@ -407,21 +407,21 @@
            <!-- 3rd Card starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Illustrator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">176</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Video Editor
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">154</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Front End Dev
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">142</p>
@@ -435,21 +435,21 @@
         <!-- 4th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             3D Modeler
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">128</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Officer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">102</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Content Creator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">95</p>
@@ -463,14 +463,14 @@
         <!-- 5th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Translator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">72</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Java Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">51</p>
@@ -531,14 +531,14 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Full Stack Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">324</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             UI/UX designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">259</p>
@@ -556,14 +556,14 @@
   
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             IOS Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">231</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Web Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">222</p>
@@ -579,14 +579,14 @@
            <!-- 3rd Card starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Copy writer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">219</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Graphic Designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">192</p>
@@ -600,14 +600,14 @@
         <!-- 4th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Illustrator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">176</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Video Editor
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">154</p>
@@ -621,14 +621,14 @@
         <!-- 5th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Front End Dev
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">142</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             3D Modeler
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">128</p>
@@ -640,14 +640,14 @@
 
         <!-- 6th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Officer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">102</p>
             </div>
           </div>
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Content Creator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">95</p>
@@ -660,14 +660,14 @@
         <!-- 7th Card section starts -->
         <div class="category-container flex place-items-center gap-4 mb-3">
 
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Translator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">72</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Java Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">51</p>
@@ -707,98 +707,98 @@
   
         <div class="category-container flex flex-col place-items-center gap-4 mb-3">
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Full Stack Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">324</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             UI/UX designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">259</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             IOS Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">231</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Web Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">222</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Copy writer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">219</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Graphic Designer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">192</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Illustrator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">176</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Video Editor
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">154</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Front End Dev
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">142</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             3D Modeler
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">128</p>
             </div>
           </div>
           
-          <div class="inline-flex gap-2 p-2 categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 categories text-sm pl-5 expand">
             Officer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">102</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Content Creator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">95</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Translator
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">72</p>
             </div>
           </div>
   
-          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5">
+          <div class="inline-flex gap-2 p-2 text-center categories text-sm pl-5 expand">
             Java Developer
             <div class="bg-black categories-sub text-center text-white">
               <p class="m-1 text-xs mx-2">51</p>
@@ -887,5 +887,12 @@
       }
       .align-content{
         align-items: center
+      }
+      .expand{
+        transition: 0.14s ease;
+        cursor: pointer;
+      }
+      .expand:hover {
+        transform: scale(1.06);
       }
   </style>
