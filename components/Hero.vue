@@ -22,7 +22,7 @@
             </div>
           </div>
 
-          <img src="../assets/images/content.png" class="w-10/12 max-[1280px]:mx-auto min-[900px]:max-[1280px]:w-8/12  mb-2 ghost"/>
+          <img src="../assets/images/HeroImage1.png" class="w-10/12 max-[1280px]:mx-auto min-[900px]:max-[1280px]:w-8/12  mb-2 ghost"/>
         </div>
 
         
