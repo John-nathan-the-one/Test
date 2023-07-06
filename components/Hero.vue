@@ -72,14 +72,6 @@
         bottom: -240px;
         right: -192px;
     }
-    .circle-shadow:hover{
-      border: dashed 4px white;
-      rotate: 360deg;
-    }
-    .circle-shadow1:hover{
-      border: dashed 4px white;
-      rotate: 90deg;
-    }
     .circle-shadow1{
         width: 80%;
         height: 620px;
@@ -93,9 +85,13 @@
     .hero-image:hover>.circle-shadow{
       border: dashed 4px white;
       rotate: 360deg;
+      border: dashed 4px white;
+      rotate: 360deg;
       transform: scale(0.8);
     }
     .hero-image:hover>.circle-shadow1{
+      border: dashed 4px white;
+      rotate: 90deg;
       border: dashed 4px white;
       rotate: 90deg;
     }
