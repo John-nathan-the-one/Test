@@ -11,9 +11,12 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.4.3",
+    "wrangler": "^4.94.0"
   },
   "dependencies": {
+    "22": "^0.0.0",
     "aos": "^2.3.4"
   }
 }
+

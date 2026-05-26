@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css',
   ],
+  nitro: {
+      preset: 'cloudflare-pages' // or 'cloudflare-module'
+    },
   app: {
     head: {
         charset: 'utf-16',
