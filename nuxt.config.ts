@@ -7,10 +7,8 @@ export default defineNuxtConfig({
     '@/assets/css/main.css',
   ],
   nitro: {
-    output: {
-      dir: 'build-output' // Change '.output' to your preferred folder name
-    }
-  },
+      preset: 'cloudflare-pages' // or 'cloudflare-module'
+    },
   app: {
     head: {
         charset: 'utf-16',
